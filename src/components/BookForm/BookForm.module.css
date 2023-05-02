@@ -1,0 +1,131 @@
+.Book_Section {
+  position: relative;
+}
+
+.Book_Container {
+  margin: 0 auto !important;
+  max-width: 133rem !important;
+  padding: 0 1.5rem !important;
+}
+
+.Book_Content {
+  margin: 0 auto 6rem;
+  margin-bottom: 3.5rem;
+  margin-top: 2.5rem;
+}
+
+.Book_Content__Box {
+  background-color: #ffffff;
+  border-radius: 5px;
+  box-shadow: 0 0 20px 5px #dfdfdf;
+  color: #ffffff;
+  color: #010103;
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  padding: 3rem 2.5rem 3rem;
+  position: relative;
+  width: 100%;
+  z-index: 4;
+}
+
+.Book_Content__Box h2 {
+  font-size: 2.6rem;
+  margin-bottom: 2.5rem;
+  text-align: center;
+}
+
+.Book_Form {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.Book_Form b {
+  color: #1690f3;
+  font-size: 2rem;
+}
+
+.Book_Form svg {
+  color: #1690f3;
+}
+
+.Book_Form__Type {
+  display: flex;
+  flex-direction: column;
+}
+
+.Book_Form__Type label {
+  font-weight: 600;
+  margin-bottom: 1rem;
+  display: flex;
+  gap: 1.5rem;
+  font-size: 1.6rem;
+}
+
+.Book_Form__Type select {
+  border: 1px solid #1690f3;
+  border-radius: 5px;
+  color: #555555;
+  outline: none;
+  padding: 1.5rem 1.5rem;
+  cursor: pointer;
+}
+
+.Book_Form__Time {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.Book_Form__Time label {
+  font-weight: 600;
+  margin-bottom: 1rem;
+  display: flex;
+  gap: 2rem;
+  font-size: 1.6rem;
+}
+
+.Book_Form__Time input {
+  border: 1px solid #1690f3;
+  border-radius: 5px;
+  color: #555555;
+  outline: none;
+  padding: 1.5rem 1.5rem;
+  cursor: pointer;
+}
+
+.Search {
+  background-color: #1690f3;
+  border-radius: 5px;
+  padding: 1.2rem 1.2rem;
+  transition: all 0.5s;
+  z-index: 1;
+  border: 2px solid #1690f3;
+  color: #ffffff;
+  font-weight: 600;
+  height: fit-content;
+  align-self: self-end;
+  font-size: 1.8rem;
+  width: 100%;
+}
+
+@media screen and (min-width: 630px) {
+  .Book_Content__Box h2 {
+    text-align: start;
+  }
+  .Book_Form {
+    display: grid;
+    gap: 2.5rem;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(auto);
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .Book_Form {
+    gap: 3rem;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(auto);
+  }
+}
