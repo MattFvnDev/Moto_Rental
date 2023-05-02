@@ -1,10 +1,37 @@
-import React from "react"
+import React, { useState, useEffect } from "react"
 import style from "./Hero.module.css"
 import { Link } from "react-router-dom"
 import { main, shape } from "../../assets/index"
-import { FaCheckDouble, FaAngleDoubleRight } from "react-icons/fa"
+import { FaCheckDouble, FaAngleDoubleRight, FaRoad } from "react-icons/fa"
 
 const Hero = () => {
+  const [moveUp, setMoveUp] = useState(false)
+
+  const scrollMoveToTop = () => {
+    window.scrollTo({ top: (0, 0), behavior: "smooth" })
+  }
+
+  const bookARideButton = () => {
+    document
+      .querySelector("#Booking-Section")
+      .scrollIntoView({ behavior: "smooth" })
+  }
+
+  useEffect(() => {
+    const pageScroll = () => {
+      if (window.pageYOffset > 500) {
+        setMoveUp(true)
+      } else {
+        setMoveUp(false)
+      }
+    }
+    window.addEventListener("scroll", pageScroll)
+
+    return () => {
+      window.removeEventListener("scroll", pageScroll)
+    }
+  }, [])
+
   return (
     <>
       <section id="Home-Section" className={style.Hero_Section}>
@@ -22,7 +49,7 @@ const Hero = () => {
                 schedule
               </p>
               <div className={style.Hero_Content__Text__Buttons}>
-                <Link className={style.BookRide}>
+                <Link onClick={bookARideButton} className={style.BookRide}>
                   Book a Ride&nbsp;
                   <FaCheckDouble size={20} />
                 </Link>
@@ -34,6 +61,13 @@ const Hero = () => {
             </div>
             <img className={style.Motorcycle} src={main} alt="Motorcycle" />
           </div>
+        </div>
+        {/* Move page up */}
+        <div
+          onClick={scrollMoveToTop}
+          className={`${style.Scroll} ${moveUp ? `${style.Scroll_Show}` : ""}`}
+        >
+          <FaRoad size={35} />
         </div>
       </section>
     </>
