@@ -19,7 +19,7 @@ const BookForm = () => {
                     &nbsp;Choose a Motorcycle <b>*</b>
                   </label>
                   <select>
-                    <option s>Select your motorcycle</option>
+                    <option>Select your motorcycle</option>
                     {motorcycles.map((motorcycle) => (
                       <option key={motorcycle.id}>{motorcycle.name}</option>
                     ))}
