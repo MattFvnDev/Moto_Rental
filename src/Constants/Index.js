@@ -1,3 +1,5 @@
+import { helmet, users, motorcycle } from "../assets/index"
+
 export const cities = [
   {
     id: "city-1",
@@ -90,5 +92,29 @@ export const motorcycles = [
     id: "motorcycle-9",
     name: "Yamaha Tracer 9",
     mark: "Yamaha",
+  },
+]
+
+export const plans = [
+  {
+    id: "plan-1",
+    icon: motorcycle,
+    title: "Select Your Motorcycle",
+    content:
+      "We offer the best range of motorcycles for your needs with an attractive insurance package, convenient payments and unlimited miles.",
+  },
+  {
+    id: "plan-2",
+    icon: users,
+    title: "Contact Our Employees",
+    content:
+      "Our qualified and pleasant employees are ready anytime to help you with any questions or concerns.",
+  },
+  {
+    id: "plan-3",
+    icon: helmet,
+    title: "Let's Ride",
+    content:
+      "Whether you're ridding, we've got you covered with our wide range of motorcycles and best insurance.",
   },
 ]

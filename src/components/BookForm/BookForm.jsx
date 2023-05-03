@@ -2,7 +2,7 @@ import React from "react"
 import style from "./BookForm.module.css"
 import { RiMotorbikeFill } from "react-icons/ri"
 import { GoLocation, GoCalendar } from "react-icons/go"
-import { cities, motorcycles } from "../../Constants/Index"
+import { cities, motorcycles } from "../../constants"
 
 const BookForm = () => {
   return (
@@ -19,7 +19,7 @@ const BookForm = () => {
                     &nbsp;Choose a Motorcycle <b>*</b>
                   </label>
                   <select>
-                    <option>Select your motorcycle</option>
+                    <option s>Select your motorcycle</option>
                     {motorcycles.map((motorcycle) => (
                       <option key={motorcycle.id}>{motorcycle.name}</option>
                     ))}
