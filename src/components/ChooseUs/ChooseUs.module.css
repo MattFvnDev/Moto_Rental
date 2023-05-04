@@ -1,0 +1,104 @@
+.Choose_Section {
+  padding: 2rem 0 10rem;
+}
+
+.Choose_Container {
+  margin: 0 auto !important;
+  max-width: 133rem !important;
+  padding: 0 1.5rem !important;
+}
+
+.Choose_Content {
+  display: flex;
+  flex-direction: column;
+}
+
+.Group {
+  width: 100%;
+}
+
+.ChooseUs_Content {
+  align-items: center;
+  flex-direction: column;
+  gap: 4rem;
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 3rem;
+  width: 100%;
+}
+
+.ChooseUs_Content__Text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  max-width: 45rem;
+}
+
+.ChooseUs_Content__Text h4 {
+  font-size: 2.4rem;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+}
+.ChooseUs_Content__Text h2 {
+  font-size: 4.2rem;
+  line-height: 1.25;
+  margin-bottom: 2rem;
+}
+.ChooseUs_Content__Text p {
+  font-size: 1.6rem;
+  line-height: 1.5;
+  margin-bottom: 3rem;
+  color: #888888;
+}
+
+.Details {
+  background-color: #1690f3;
+  border: 2px solid #1690f3;
+  font-size: 1.6rem;
+  border-radius: 0.3rem;
+  padding: 1.5rem 3rem;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  color: #ffffff;
+  font-weight: 700;
+  cursor: pointer;
+  box-shadow: 0 5px 10px 0 #1690f3;
+  width: fit-content;
+}
+
+.ChooseUs_Content__Cards {
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+  max-width: 50rem;
+  align-items: center;
+}
+
+@media screen and (min-width: 550px) {
+  .Group {
+    height: auto;
+    margin: 0 auto;
+    width: 90%;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .ChooseUs_Content {
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 3rem;
+  }
+  .ChooseUs_Content__Cards {
+    text-align: start;
+    align-items: start;
+    width: 50%;
+  }
+  .ChooseUs_Content__Text {
+    align-items: start;
+    text-align: start;
+    width: 50%;
+  }
+}

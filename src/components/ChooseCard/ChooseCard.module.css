@@ -1,0 +1,49 @@
+.ChooseCard__Box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+  text-align: center;
+}
+
+.ChooseCard__Box img {
+  height: 11rem;
+  width: 11rem;
+}
+
+.ChooseCard__Box__Text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  max-width: 45rem;
+  text-align: center;
+  word-break: keep-all;
+  word-wrap: break-word;
+}
+
+.ChooseCard__Box__Text h4 {
+  font-size: 2.2rem;
+}
+
+.ChooseCard__Box__Text p {
+  font-size: 1.6rem;
+  line-height: 1.25;
+  color: #888888;
+}
+
+@media screen and (min-width: 550px) {
+  .ChooseCard__Box {
+    flex-direction: row;
+  }
+  .ChooseCard__Box__Text {
+    text-align: start;
+    align-items: start;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .ChooseCard__Box {
+    gap: 2rem;
+  }
+}

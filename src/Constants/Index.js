@@ -1,4 +1,11 @@
-import { helmet, users, motorcycle } from "../assets/index"
+import {
+  helmet,
+  users,
+  motorcycle,
+  hidden,
+  services,
+  world,
+} from "../assets/index"
 
 export const cities = [
   {
@@ -116,5 +123,29 @@ export const plans = [
     title: "Let's Ride",
     content:
       "Whether you're ridding, we've got you covered with our wide range of motorcycles and best insurance.",
+  },
+]
+
+export const choices = [
+  {
+    id: "choice-1",
+    icon: world,
+    title: "World Driving Experience",
+    content:
+      "Take your driving experience to the highest level with our top-notch motorcycles for your adventures.",
+  },
+  {
+    id: "choice-2",
+    icon: services,
+    title: "One service many features",
+    content:
+      "Get everything you need in one convenient service. We offer convenient terms, transparent price with our all-inclusive pricing policy.",
+  },
+  {
+    id: "choice-3",
+    icon: hidden,
+    title: "No hidden Fees",
+    content:
+      "Enjoy peace of mind with our no hidden charges policy. We provide clear terms and fair prices.",
   },
 ]
