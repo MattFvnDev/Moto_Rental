@@ -5,6 +5,9 @@ import {
   hidden,
   services,
   world,
+  person1,
+  person2,
+  person3,
 } from "../assets/index"
 
 export const cities = [
@@ -147,5 +150,32 @@ export const choices = [
     title: "No hidden Fees",
     content:
       "Enjoy peace of mind with our no hidden charges policy. We provide clear terms and fair prices.",
+  },
+]
+
+export const testimonials = [
+  {
+    id: "testimonial-1",
+    content:
+      "I was very satisfied with the organization of picking up the motorcycle at the Wrocław airport and dropping it off at the ferry in Gdańsk. There were no problems and the motorcycle served me well. I definitely recommend it!",
+    name: "Jenny Matzs",
+    city: "Wrocław",
+    img: person1,
+  },
+  {
+    id: "testimonial-2",
+    content:
+      "I found out about Moto Rental from various travel blogs and decided to book a motorcycle here for 5 days in Poznań. I am very satisfied with the booking process, the support before, during and after the trip.",
+    name: "Mark Tuwim",
+    city: "Poznań",
+    img: person2,
+  },
+  {
+    id: "testimonial-3",
+    content:
+      "A great experience from booking the rental online to receiving email confirmation and step by step instructions on how to receive and return the motorcycle. All happened exactly like Moto Rental employees said it would.",
+    name: "Karl Muniger",
+    city: "Rzeszów",
+    img: person3,
   },
 ]

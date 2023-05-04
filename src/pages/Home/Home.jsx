@@ -1,6 +1,6 @@
 import React from "react";
 import style from "./Home.module.css";
-import { Hero, BookForm, Plan, Banner, ChooseUs } from "../../components";
+import { Hero, BookForm, Plan, Banner, ChooseUs, Testimonials } from "../../components";
 
 const Home = () => (
   <>
@@ -9,6 +9,7 @@ const Home = () => (
     <BookForm/>
     <Banner/>
     <ChooseUs/>
+    <Testimonials/>
   </>
 );
 

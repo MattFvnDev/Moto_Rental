@@ -4,10 +4,10 @@ import main from "./hero/main.webp"
 import helmet from "./plans/helmet.svg"
 import motorcycle from "./plans/motorcycle.svg"
 import users from "./plans/users.svg"
-import people1 from "./testimonials/people01.png"
-import people2 from "./testimonials/people02.png"
-import people3 from "./testimonials/people03.png"
-import quotes from "./testimonials/quotes.png"
+import person1 from "./testimonials/person1.png"
+import person2 from "./testimonials/person2.png"
+import person3 from "./testimonials/person3.png"
+import quotes from "./testimonials/quotes.svg"
 import hidden from "./choose/hidden.png"
 import world from "./choose/world.png"
 import group from "./choose/main.png"
@@ -20,9 +20,9 @@ export {
   helmet,
   motorcycle,
   users,
-  people1,
-  people2,
-  people3,
+  person1,
+  person2,
+  person3,
   quotes,
   group,
   hidden,
