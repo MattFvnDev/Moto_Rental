@@ -8,6 +8,7 @@ import ChooseUs from "./ChooseUs/ChooseUs"
 import ChooseCard from "./ChooseCard/ChooseCard"
 import Testimonials from "./Testimonials/Testimonials"
 import TestimonialsCard from "./TestimonialsCard/TestimonialsCard"
+import Footer from "./Footer/Footer"
 
 export {
   Hero,
@@ -20,4 +21,5 @@ export {
   ChooseCard,
   Testimonials,
   TestimonialsCard,
+  Footer,
 }

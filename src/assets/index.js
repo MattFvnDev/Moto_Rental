@@ -12,6 +12,10 @@ import hidden from "./choose/hidden.png"
 import world from "./choose/world.png"
 import group from "./choose/main.png"
 import services from "./choose/services.png"
+import twitter from "./socialmedia/twitter.svg"
+import linkedin from "./socialmedia/linkedin.svg"
+import facebook from "./socialmedia/facebook.svg"
+import instagram from "./socialmedia/instagram.svg"
 
 export {
   logo,
@@ -28,4 +32,8 @@ export {
   hidden,
   world,
   services,
+  twitter,
+  linkedin,
+  facebook,
+  instagram,
 }

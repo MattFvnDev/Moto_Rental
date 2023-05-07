@@ -8,6 +8,10 @@ import {
   person1,
   person2,
   person3,
+  facebook,
+  instagram,
+  linkedin,
+  twitter,
 } from "../assets/index"
 
 export const cities = [
@@ -177,5 +181,82 @@ export const testimonials = [
     name: "Karl Muniger",
     city: "Rzeszów",
     img: person3,
+  },
+]
+
+export const footerLinks = [
+  {
+    title: "Support",
+    Links: [
+      {
+        name: "Help Center",
+      },
+      {
+        name: "Status",
+      },
+      {
+        name: "Privacy Policy",
+      },
+      {
+        name: "Terms & Conditions",
+      },
+    ],
+  },
+  {
+    title: "Company",
+    Links: [
+      {
+        name: "About",
+      },
+      {
+        name: "Customers",
+      },
+      {
+        name: "Careers",
+      },
+      {
+        name: "Contact",
+      },
+    ],
+  },
+  {
+    title: "Community",
+    Links: [
+      {
+        name: "Partners",
+      },
+      {
+        name: "Blog",
+      },
+      {
+        name: "Newsletters",
+      },
+      {
+        name: "FAQ",
+      },
+    ],
+  },
+]
+
+export const socialMedia = [
+  {
+    id: "social-media-1",
+    icon: instagram,
+    link: "https://www.instagram.com/",
+  },
+  {
+    id: "social-media-2",
+    icon: facebook,
+    link: "https://www.facebook.com/",
+  },
+  {
+    id: "social-media-3",
+    icon: twitter,
+    link: "https://www.twitter.com/",
+  },
+  {
+    id: "social-media-4",
+    icon: linkedin,
+    link: "https://www.linkedin.com/",
   },
 ]
