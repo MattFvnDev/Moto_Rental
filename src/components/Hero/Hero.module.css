@@ -179,27 +179,27 @@
   }
 }
 
-@media screen and (min-width: 1660px) {
+@media screen and (min-width: 1640px) {
   .Shape {
     right: 10rem;
   }
 }
-@media screen and (min-width: 1860px) {
+@media screen and (min-width: 1840px) {
   .Shape {
     right: 20rem;
   }
 }
-@media screen and (min-width: 2060px) {
+@media screen and (min-width: 2040px) {
   .Shape {
     right: 30rem;
   }
 }
-@media screen and (min-width: 2260px) {
+@media screen and (min-width: 2240px) {
   .Shape {
     right: 40rem;
   }
 }
-@media screen and (min-width: 2460px) {
+@media screen and (min-width: 2440px) {
   .Shape {
     right: 50rem;
   }

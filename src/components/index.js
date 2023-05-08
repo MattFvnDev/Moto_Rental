@@ -9,9 +9,12 @@ import ChooseCard from "./ChooseCard/ChooseCard"
 import Testimonials from "./Testimonials/Testimonials"
 import TestimonialsCard from "./TestimonialsCard/TestimonialsCard"
 import Footer from "./Footer/Footer"
+import PagesHeader from "./PagesHeader/PagesHeader"
+import MobileApp from "./MobileApp/MobileApp"
 
 export {
   Hero,
+  PagesHeader,
   Navbar,
   BookForm,
   Plan,
@@ -21,5 +24,6 @@ export {
   ChooseCard,
   Testimonials,
   TestimonialsCard,
+  MobileApp,
   Footer,
 }

@@ -16,11 +16,15 @@ import twitter from "./socialmedia/twitter.svg"
 import linkedin from "./socialmedia/linkedin.svg"
 import facebook from "./socialmedia/facebook.svg"
 import instagram from "./socialmedia/instagram.svg"
+import pagesheader from "./pagesheader/3.webp"
+import google from "./mobileapp/google.svg"
+import apple from "./mobileapp/apple.svg"
 
 export {
   logo,
   shape,
   main,
+  pagesheader,
   helmet,
   motorcycle,
   users,
@@ -36,4 +40,6 @@ export {
   linkedin,
   facebook,
   instagram,
+  google,
+  apple,
 }

@@ -138,7 +138,7 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: auto;
-    gap: 8rem;
+    gap: 4rem;
   }
 }
 
@@ -147,6 +147,7 @@
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: auto;
+    padding: 0 3rem;
   }
   .Footer_Content__Contact {
     align-items: start;
@@ -160,6 +161,10 @@
   }
   .SocialMedia_Content {
     flex-direction: row;
+  }
+  .SocialMedia_Content__Text,
+  .SocialMedia_Content__Box {
+    padding: 0 3rem;
   }
 }
 

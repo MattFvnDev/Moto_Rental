@@ -1,0 +1,47 @@
+.PagesHeader {
+  background-image: url("../../assets/pagesheader/3.webp");
+  background-position: 0 25%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 40rem;
+  position: relative;
+  width: 100%;
+}
+
+.PagesHeader_Background {
+  background-color: hsla(0, 0%, 90%, 0.7);
+  height: 100%;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 100%;
+}
+
+.PagesHeader_Container {
+  margin: 0 auto !important;
+  max-width: 133rem !important;
+  padding: 0 1.5rem !important;
+}
+
+.PagesHeader_Container__Text {
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  height: 60rem;
+  justify-content: center;
+  position: relative;
+  width: 60%;
+  z-index: 3;
+}
+
+.PagesHeader_Container__Text h2 {
+  font-size: 3.6rem;
+  color: #000000;
+}
+
+.PagesHeader_Container__Text h3 {
+  font-size: 2.4rem;
+  font-weight: 600;
+  margin-top: 1.5rem;
+  color: #1690f3;
+}

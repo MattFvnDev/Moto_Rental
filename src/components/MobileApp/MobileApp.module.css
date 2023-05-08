@@ -1,0 +1,60 @@
+.MobileApp_Section {
+  background-color: #ffffff;
+  background-image: url(/src/assets/mobileapp/mobilebackground.webp);
+  background-repeat: no-repeat;
+  background-position: 40% 40%;
+  background-size: cover;
+  height: auto;
+  padding: 10rem 0;
+  width: 100%;
+}
+.MobileApp_Container {
+  margin: 0 auto !important;
+  max-width: 133rem !important;
+  padding: 0 1.5rem !important;
+}
+
+.MobileApp_Content {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  max-width: 45rem;
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.MobileApp_Content h2 {
+  font-size: 4.2rem;
+  color: #1690f3;
+}
+
+.MobileApp_Content p {
+  font-size: 1.6rem;
+  color: #ffffff;
+  line-height: 1.5;
+  font-weight: 600;
+}
+
+.MobileApp_Buttons {
+  display: flex;
+  gap: 3rem;
+  margin-top: 2rem;
+  align-items: center;
+  flex-direction: column;
+}
+
+.MobileApp_Buttons img {
+  width: 20rem;
+}
+
+@media screen and (width >= 550px) {
+  .MobileApp_Buttons {
+    flex-direction: row;
+  }
+}
+
+@media screen and (width >= 700px) {
+  .MobileApp_Content {
+    text-align: start;
+  }
+}
