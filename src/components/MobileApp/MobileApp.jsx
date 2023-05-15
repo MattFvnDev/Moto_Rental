@@ -7,7 +7,7 @@ const MobileApp = () => (
     <section className={style.MobileApp_Section}>
       <div className={style.MobileApp_Container}>
         <div className={style.MobileApp_Content}>
-          <h2>Manage yor rentals wherever you are</h2>
+          <h2>Manage your rental wherever you are</h2>
           <p>
             Manage your rental from virtually anywhere with our Mobile App.
             Request pickup & extend rental, manage & pay invoices. Get a quick

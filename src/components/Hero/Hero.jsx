@@ -53,7 +53,7 @@ const Hero = () => {
                   Book a Ride&nbsp;
                   <FaCheckDouble size={20} />
                 </Link>
-                <Link className={style.LearnMore}>
+                <Link className={style.LearnMore} >
                   Learn More&nbsp;
                   <FaAngleDoubleRight size={25} />
                 </Link>

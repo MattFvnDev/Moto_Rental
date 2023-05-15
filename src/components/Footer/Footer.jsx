@@ -15,20 +15,20 @@ const Footer = () => (
             motorcycle of your dreams now.
           </p>
         </div>
+        {/* <div className={style.Footer_Content__Contact}>
+          <h4>Contact details</h4>
+          <span>
+            <BsTelephoneFill size={30} />
+            <p>71-123-98-77</p>
+          </span>
+          <span>
+            <a href="mailto:motorental@gmail.com">
+              <BsEnvelopeAtFill size={30} />
+              <p>motorental@gmail.com</p>
+            </a>
+          </span>
+        </div> */}
         <div className={style.Footer_Content__Containers}>
-          <div className={style.Footer_Content__Contact}>
-            <h4>Contact details</h4>
-            <span>
-              <BsTelephoneFill size={30} />
-              <p>71-123-98-77</p>
-            </span>
-            <span>
-              <a href="mailto:motorental@gmail.com">
-                <BsEnvelopeAtFill size={30} />
-                <p>motorental@gmail.com</p>
-              </a>
-            </span>
-          </div>
           {footerLinks.map((footerLink) => (
             <div className={style.Footer_Content__Links} key={footerLink.key}>
               <h4>{footerLink.title}</h4>
@@ -47,11 +47,13 @@ const Footer = () => (
     <div className={style.SocialMedia_Container}>
       <div className={style.SocialMedia_Content}>
         <div className={style.SocialMedia_Content__Text}>
-          2023 Moto Rental®. All Rights Reserved.
+          2023 Moto Rental®. All rights reserved.
         </div>
         <div className={style.SocialMedia_Content__Box}>
           {socialMedia.map((social, index) => (
-            <img key={social.id} src={social.icon} alt={social.id} />
+            <a href={`${social.link}`} target="_blank">
+              <img key={social.id} src={social.icon} alt={social.id} />
+            </a>
           ))}
         </div>
       </div>

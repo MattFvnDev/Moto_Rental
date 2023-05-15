@@ -15,9 +15,6 @@ const PagesHeader = ({ name }) => (
           </h3>
         </div>
       </div>
-      <Plan />
-      <Banner />
-      <Footer />
     </section>
   </>
 )

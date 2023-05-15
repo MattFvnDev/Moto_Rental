@@ -1,5 +1,5 @@
 import React, { useState } from "react"
-import { Link } from "react-router-dom"
+import { Link, NavLink } from "react-router-dom"
 import { logo } from "../../assets/index"
 import { CgClose, CgMenu } from "react-icons/cg"
 import style from "./Navbar.module.css"
@@ -23,22 +23,22 @@ const Navbar = () => {
           }
         >
           <li>
-            <Link to="/">Home</Link>
+            <NavLink to="/">Home</NavLink>
           </li>
           <li>
-            <Link to="about">About</Link>
+            <NavLink to="about">About</NavLink>
           </li>
           <li>
-            <Link to="models">Models</Link>
+            <NavLink to="models">Models</NavLink>
           </li>
           <li>
-            <Link to="team">Team</Link>
+            <NavLink to="team">Team</NavLink>
           </li>
           <li>
-            <Link to="testimonials">Testimonials</Link>
+            <NavLink to="testimonials">Testimonials</NavLink>
           </li>
           <li>
-            <Link to="contact">Contact</Link>
+            <NavLink to="contact">Contact</NavLink>
           </li>
         </ul>
         <div className={style.Navbar__Buttons}>
@@ -55,6 +55,7 @@ const Navbar = () => {
           onClick={() => setOpen((prev) => !prev)}
         >
           {open ? <CgClose size={40} /> : <CgMenu size={40} />}
+          
         </div>
       </nav>
     </>

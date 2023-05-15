@@ -175,33 +175,33 @@
 
 @media screen and (min-width: 1440px) {
   .Shape {
-    right: 2rem;
+    right: 4rem;
   }
 }
 
 @media screen and (min-width: 1640px) {
   .Shape {
-    right: 10rem;
+    right: 13rem;
   }
 }
 @media screen and (min-width: 1840px) {
   .Shape {
-    right: 20rem;
+    right: 23rem;
   }
 }
 @media screen and (min-width: 2040px) {
   .Shape {
-    right: 30rem;
+    right: 33rem;
   }
 }
 @media screen and (min-width: 2240px) {
   .Shape {
-    right: 40rem;
+    right: 43rem;
   }
 }
 @media screen and (min-width: 2440px) {
   .Shape {
-    right: 50rem;
+    right: 53rem;
   }
 }
 

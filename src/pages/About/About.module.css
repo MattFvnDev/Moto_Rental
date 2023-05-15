@@ -1,0 +1,109 @@
+.About_Page {
+}
+
+.About_Container {
+  max-width: 133rem !important;
+  margin: 0 auto !important;
+  padding: 0 1.5rem !important;
+}
+
+.About_Main {
+  margin: 10rem auto;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  max-width: 95rem;
+  align-items: center;
+}
+
+.About_Main img {
+  max-width: 100%;
+  height: auto;
+  border-radius:5px;
+}
+
+.About_Main__Text {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.About_Main__Text h3 {
+  margin-bottom: 1rem;
+  font-size: 2.4rem;
+}
+
+.About_Main__Text h2 {
+  font-size: 4.2rem;
+  line-height: 1.25;
+}
+
+.About_Main__Text p {
+  line-height: 1.5;
+  margin-top: 1rem;
+  margin-bottom: 3rem;
+  font-size: 1.6rem;
+  color: #888888;
+}
+
+.About_Main__Text__Icons {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+.About_Main__Text__Icons__Box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.About_Main__Text__Icons__Box img {
+  height: auto;
+  width: 8rem;
+  margin-bottom: 1rem;
+}
+
+.About_Main__Text__Icons__Box h3 {
+  font-size: 4.2rem;
+  white-space: nowrap;
+  margin-bottom: 0;
+}
+
+.About_Main__Text__Icons__Box p {
+  font-size: 2.4rem;
+  color: #888888;
+  margin-top: 0;
+}
+
+@media screen and (width>=768px) {
+  .About_Main__Text__Icons {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media screen and (width>= 950px) {
+  .About_Main {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+    gap: 3rem;
+  }
+
+  .About_Main__Text h3 {
+    margin-bottom: 1rem;
+  }
+  .About_Main__Text {
+    gap: 3.5rem;
+    text-align: start;
+  }
+  .About_Main__Text__Icons__Box img {
+    margin-bottom: 2rem;
+  }
+  .About_Main__Text__Icons__Box p {
+    margin-bottom: 0;
+    margin-top: 1rem;
+  }
+}

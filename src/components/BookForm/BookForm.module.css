@@ -108,6 +108,11 @@
   align-self: self-end;
   font-size: 1.8rem;
   width: 100%;
+  cursor: pointer;
+}
+
+.Search:hover {
+  background: linear-gradient(45deg, #88b8f7, #008cff, #88b8f7);
 }
 
 @media screen and (min-width: 630px) {

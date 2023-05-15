@@ -1,0 +1,31 @@
+.TeamCard_Content {
+  background-color: #ffffff;
+  box-shadow: 0 0 15px 1px #888888;
+  border-radius: 5px;
+}
+
+.TeamCard_Content__Box {
+  background-color: #f6f6f6;
+  border-radius: 5px;
+  width: 100%;
+}
+
+.TeamCard_Content__Box img {
+  width: 100%;
+}
+
+.TeamCard_Content__Box__Text {
+  padding: 2rem;
+  color: #000000;
+  line-height: 1.5;
+}
+
+.TeamCard_Content__Box__Text h3 {
+  font-size: 2.4rem;
+}
+
+.TeamCard_Content__Box__Text p {
+  font-size: 1.6rem;
+  color: #888888;
+  font-weight: 500;
+}

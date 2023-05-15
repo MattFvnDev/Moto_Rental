@@ -9,7 +9,7 @@
 }
 
 .PagesHeader_Background {
-  background-color: hsla(0, 0%, 90%, 0.7);
+  background-color: hsla(0, 0%, 100%, 0.8);
   height: 100%;
   position: absolute;
   right: 0;
@@ -27,11 +27,11 @@
   color: #ffffff;
   display: flex;
   flex-direction: column;
-  height: 60rem;
-  justify-content: center;
+  height: 40rem;
   position: relative;
-  width: 60%;
+  width: 100%;
   z-index: 3;
+  justify-content: end;
 }
 
 .PagesHeader_Container__Text h2 {
@@ -42,6 +42,7 @@
 .PagesHeader_Container__Text h3 {
   font-size: 2.4rem;
   font-weight: 600;
-  margin-top: 1.5rem;
+  margin-top: 1rem;
   color: #1690f3;
+  margin-bottom: 2rem;
 }

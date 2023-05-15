@@ -1,0 +1,80 @@
+.MotorcycleCard_Content {
+  background-color: #ffffff;
+  box-shadow: 0 0 15px 1px #888888;
+  border-radius: 3px;
+  padding: 1.5rem;
+}
+
+.MotorcycleCard_Title {
+  width: 100%;
+  height: auto;
+}
+
+.MotorcycleCard_Title img {
+  width: 100%;
+  object-fit: contain;
+  margin-bottom: 1rem;
+}
+
+.MotorcycleCard_Title__Text {
+  color: #000000;
+  text-align: start;
+  margin-bottom: 2rem;
+}
+
+.MotorcycleCard_Title__Text h3 {
+  font-size: 2.8rem;
+}
+
+.MotorcycleCard_Title__Text h4 {
+  font-size: 2.4rem;
+  color: #1690f3;
+}
+
+.MotorcycleCard_Title__Text p {
+  font-size: 2rem;
+  color: #daa520;
+  font-weight: 500;
+  margin-top: 0.5rem;
+}
+
+.MotorcycleCard_Stats {
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid #daa520;
+}
+
+.MotorcycleCard_Stats__Box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #000000;
+  margin-top: 1rem;
+}
+
+.MotorcycleCard_Stats__Box p {
+  font-size: 1.6rem;
+  margin-top: 0.5rem;
+  font-weight: 500;
+}
+
+@media screen and (width >= 1440px) {
+  .MotorcycleCard_Stats__Box p {
+    font-size: 2rem;
+  }
+}
+
+@media screen and (width >= 800px) {
+  .MotorcycleCard_Title__Text {
+    text-align: center;
+  }
+}
+
+@media screen and (width >=425px) {
+  .MotorcycleCard_Content {
+    padding: 2rem;
+  }
+  .MotorcycleCard_Stats__Box p {
+    margin-top: 1rem;
+  }
+}

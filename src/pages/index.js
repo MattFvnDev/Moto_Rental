@@ -5,6 +5,7 @@ import Models from "./Models/Models";
 import Register from "./Register/Register";
 import SignIn from "./SignIn/SignIn";
 import Team from "./Team/Team";
-import Testimonials from "./Testimonials/Testimonials";
+import TestimonialsPage from "./TestimonialsPage/TestimonialsPage";
 
-export { About, Contact, Home, Models, Register, SignIn, Team, Testimonials };
+
+export { About, Contact, Home, Models, Register, SignIn, Team, TestimonialsPage};
