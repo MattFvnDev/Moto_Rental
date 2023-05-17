@@ -1,0 +1,73 @@
+.Filter_Container {
+  display: grid;
+  grid-column: 1/-1;
+  justify-items: center;
+}
+
+.Filter_Container h3 {
+  font-size: 2.8rem;
+  text-align: center;
+  margin-bottom: 1rem;
+  color: #1690f3;
+}
+
+.Filter_Container h2 {
+  font-size: 2.4rem;
+  text-align: center;
+  margin-bottom: 2rem;
+  color: #daa520;
+  font-weight: 600;
+}
+
+.Filter__Buttons {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  row-gap: 2rem;
+  column-gap: 2rem;
+  width: 27rem;
+  margin-top: 2rem;
+  justify-content: center;
+}
+
+.Filter__Buttons button {
+  background-color: #ffffff;
+  border: 2px solid #1690f3;
+  border-radius: 5px;
+  padding: 1rem 1rem;
+  gap: 1rem;
+  color: #1690f3;
+  font-weight: 600;
+  cursor: pointer;
+  width: 12.5rem;
+  height: 4rem;
+  font-size: 1.6rem;
+}
+
+.Filter__Buttons button:hover {
+  background-color: #1690f3;
+  color: #ffffff;
+}
+
+.All {
+  grid-column: 1/-1;
+  display: grid;
+  justify-self: center;
+}
+
+@media screen and (width >= 800px) {
+  .Filter__Buttons {
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 3rem;
+    column-gap: 3rem;
+  }
+}
+
+@media screen and (width >= 1150px) {
+  .Filter__Buttons {
+    grid-template-columns: repeat(7, 1fr);
+    column-gap: 4rem;
+  }
+  .All {
+    grid-column: 1/1;
+  }
+}

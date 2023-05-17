@@ -14,6 +14,7 @@ import PagesHeader from "./PagesHeader/PagesHeader"
 import MobileApp from "./MobileApp/MobileApp"
 import TeamCard from "./TeamCard/TeamCard"
 import MotorcycleCard from "./MotorcycleCard/MotorcycleCard"
+import Filter from "./Filter/Filter"
 
 export {
   Hero,
@@ -32,4 +33,5 @@ export {
   Footer,
   TeamCard,
   MotorcycleCard,
+  Filter,
 }

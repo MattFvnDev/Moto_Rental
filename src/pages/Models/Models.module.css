@@ -5,30 +5,26 @@
 }
 
 .Models_Container__Box {
-  padding: 10rem 0;
+  padding: 10rem 1rem;
   align-items: center;
   display: flex;
   gap: 4rem;
   margin: 0 auto;
   flex-direction: column;
+  width: fit-content;
 }
 
 @media screen and (width >= 800px) {
   .Models_Container__Box {
     display: grid;
     grid-template-rows: auto;
-    gap: 6rem;
     grid-template-columns: repeat(2, 1fr);
-  }
-  .Filter_Container {
-    display: grid;
-    grid-column: 1/ -1;
   }
 }
 
 @media screen and (width >= 1150px) {
   .Models_Container__Box {
-    gap: 8rem;
     grid-template-columns: repeat(3, 1fr);
+    gap: 6rem;
   }
 }
