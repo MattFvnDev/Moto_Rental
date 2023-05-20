@@ -15,6 +15,9 @@ import MobileApp from "./MobileApp/MobileApp"
 import TeamCard from "./TeamCard/TeamCard"
 import MotorcycleCard from "./MotorcycleCard/MotorcycleCard"
 import Filter from "./Filter/Filter"
+import Pick from "./Pick/Pick"
+import Carousel from "./Carousel/Carousel"
+import CarouselItem from "./CarouselItem/CarouselItem"
 
 export {
   Hero,
@@ -34,4 +37,7 @@ export {
   TeamCard,
   MotorcycleCard,
   Filter,
+  Pick,
+  Carousel,
+  CarouselItem,
 }

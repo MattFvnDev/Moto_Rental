@@ -2,7 +2,6 @@ import React from "react"
 import style from "./Footer.module.css"
 import { footerLinks, socialMedia } from "../../constants/index"
 import { logo } from "../../assets"
-import { BsTelephoneFill, BsEnvelopeAtFill } from "react-icons/bs"
 
 const Footer = () => (
   <section className={style.Footer_Section}>
@@ -15,19 +14,6 @@ const Footer = () => (
             motorcycle of your dreams now.
           </p>
         </div>
-        {/* <div className={style.Footer_Content__Contact}>
-          <h4>Contact details</h4>
-          <span>
-            <BsTelephoneFill size={30} />
-            <p>71-123-98-77</p>
-          </span>
-          <span>
-            <a href="mailto:motorental@gmail.com">
-              <BsEnvelopeAtFill size={30} />
-              <p>motorental@gmail.com</p>
-            </a>
-          </span>
-        </div> */}
         <div className={style.Footer_Content__Containers}>
           {footerLinks.map((footerLink) => (
             <div className={style.Footer_Content__Links} key={footerLink.key}>

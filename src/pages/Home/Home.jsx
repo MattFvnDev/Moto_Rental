@@ -9,12 +9,14 @@ import {
   Testimonials,
   Footer,
   MobileApp,
-} from "../../components"
+  Pick,
+} from "../../components/index"
 
 const Home = () => (
   <>
     <Hero />
     <Plan />
+    <Pick />
     <BookForm />
     <Banner />
     <ChooseUs />
