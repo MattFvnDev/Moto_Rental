@@ -1,3 +1,4 @@
+import Scroll from "./components/Scroll/Scroll"
 import { Navbar } from "./components/index"
 import {
   Home,
@@ -14,6 +15,7 @@ import { BrowserRouter, Routes, Route, Outlet } from "react-router-dom"
 export function Router() {
   const Layout = () => (
     <>
+      <Scroll />
       <Navbar />
       <Outlet />
     </>

@@ -11,7 +11,6 @@ import { motorcycleModels } from "../../constants"
 
 const Models = () => {
   const [model, setModel] = useState(motorcycleModels)
-
   const modelBrands = [...motorcycleModels.map((value) => value.brand)]
 
   const filterBrand = (currentBrand) => {

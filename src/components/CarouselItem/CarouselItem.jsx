@@ -4,7 +4,6 @@ import { ImPower } from "react-icons/im"
 import { GiWeight } from "react-icons/gi"
 import { BsFuelPumpFill } from "react-icons/bs"
 import { TbEngine } from "react-icons/tb"
-import MotorcycleCard from "../MotorcycleCard/MotorcycleCard"
 
 const CarouselItem = ({
   id,
@@ -19,7 +18,7 @@ const CarouselItem = ({
   weight,
 }) => {
   return (
-    <div key={id} className={style.CarouselItem}>
+    <div key={id} className={style.CarouselItem} >
       <div className={style.CarouselItem_Content}>
         <div className={style.CarouselItem_Title}>
           <div className={style.CarouselItem_Title__Text}>

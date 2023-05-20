@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react"
+import { Link } from "react-router-dom"
 import style from "./Carousel.module.css"
 import { CarouselItem } from "../index"
 import { motorcycleModels } from "../../constants"
@@ -30,7 +31,9 @@ const Carousel = () => {
   }
   const goForward = () => {
     const isLastItem = currentIndex === motorcycleModels.length - 1
-    const newIndex = isLastItem ? 0 : currentIndex + 1
+    const newIndex = isLastItem 
+      ? 0 
+      : currentIndex + 1
     setCurrentIndex(newIndex)
   }
 
@@ -91,6 +94,7 @@ const Carousel = () => {
           </span>
         </button>
       </div>
+      <Link to="models">Check our Fleet</Link>
     </div>
   )
 }

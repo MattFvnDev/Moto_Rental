@@ -7,16 +7,6 @@ import { FaCheckDouble, FaAngleDoubleRight, FaRoad } from "react-icons/fa"
 const Hero = () => {
   const [moveUp, setMoveUp] = useState(false)
 
-  const scrollMoveToTop = () => {
-    window.scrollTo({ top: (0, 0), behavior: "smooth" })
-  }
-
-  const bookARideButton = () => {
-    document
-      .querySelector("#Booking-Section")
-      .scrollIntoView({ behavior: "smooth" })
-  }
-
   useEffect(() => {
     const pageScroll = () => {
       if (window.pageYOffset > 500) {
@@ -31,6 +21,16 @@ const Hero = () => {
       window.removeEventListener("scroll", pageScroll)
     }
   }, [])
+
+  const scrollMoveToTop = () => {
+    window.scrollTo({ top: (0, 0), behavior: "smooth" })
+  }
+
+  const bookARideButton = () => {
+    document
+      .querySelector("#Booking-Section")
+      .scrollIntoView({ behavior: "smooth" })
+  }
 
   return (
     <>
@@ -53,7 +53,7 @@ const Hero = () => {
                   Book a Ride&nbsp;
                   <FaCheckDouble size={20} />
                 </Link>
-                <Link className={style.LearnMore} >
+                <Link className={style.LearnMore}>
                   Learn More&nbsp;
                   <FaAngleDoubleRight size={25} />
                 </Link>
