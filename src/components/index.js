@@ -18,6 +18,9 @@ import Filter from "./Filter/Filter"
 import Pick from "./Pick/Pick"
 import Carousel from "./Carousel/Carousel"
 import CarouselItem from "./CarouselItem/CarouselItem"
+import FAQ from "./FAQ/FAQ"
+import Accordion from "./Accordion/Accordion"
+import Question from "./Question/Question"
 
 export {
   Hero,
@@ -40,4 +43,7 @@ export {
   Pick,
   Carousel,
   CarouselItem,
+  FAQ,
+  Accordion,
+  Question,
 }

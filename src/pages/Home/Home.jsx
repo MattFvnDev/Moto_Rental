@@ -10,6 +10,7 @@ import {
   Footer,
   MobileApp,
   Pick,
+  FAQ,
 } from "../../components/index"
 
 const Home = () => (
@@ -20,6 +21,7 @@ const Home = () => (
     <BookForm />
     <Banner />
     <ChooseUs />
+    <FAQ/>
     <Testimonials />
     <MobileApp />
     <Footer />
