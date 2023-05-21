@@ -32,6 +32,12 @@ const Hero = () => {
       .scrollIntoView({ behavior: "smooth" })
   }
 
+  const learnMoreButton = () => {
+    document
+      .querySelector("#FAQ-Section")
+      .scrollIntoView({ behavior: "smooth" })
+  }
+
   return (
     <>
       <section id="Home-Section" className={style.Hero_Section}>
@@ -49,11 +55,11 @@ const Hero = () => {
                 schedule
               </p>
               <div className={style.Hero_Content__Text__Buttons}>
-                <Link onClick={bookARideButton} className={style.BookRide}>
+                <Link className={style.BookRide} onClick={bookARideButton}>
                   Book a Ride&nbsp;
                   <FaCheckDouble size={20} />
                 </Link>
-                <Link className={style.LearnMore}>
+                <Link className={style.LearnMore} onClick={learnMoreButton}>
                   Learn More&nbsp;
                   <FaAngleDoubleRight size={25} />
                 </Link>
