@@ -15,13 +15,15 @@ const Footer = () => (
           </p>
         </div>
         <div className={style.Footer_Content__Containers}>
-          {footerLinks.map((footerLink) => (
-            <div className={style.Footer_Content__Links} key={footerLink.key}>
+          {footerLinks.map((footerLink, index) => (
+            <div className={style.Footer_Content__Links} key={index}>
               <h4>{footerLink.title}</h4>
               <ul>
-                {footerLink.Links.map((Link) => (
-                  <li>
-                    <a href="/">{Link.name}</a>
+                {footerLink.Links.map((Link, index) => (
+                  <li key={index}>
+                    <a href="/" key={index}>
+                      {Link.name}
+                    </a>
                   </li>
                 ))}
               </ul>
@@ -37,7 +39,7 @@ const Footer = () => (
         </div>
         <div className={style.SocialMedia_Content__Box}>
           {socialMedia.map((social, index) => (
-            <a href={`${social.link}`} target="_blank">
+            <a href={`${social.link}`} target="_blank" key={index}>
               <img key={social.id} src={social.icon} alt={social.id} />
             </a>
           ))}

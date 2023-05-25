@@ -31,9 +31,7 @@ const Carousel = () => {
   }
   const goForward = () => {
     const isLastItem = currentIndex === motorcycleModels.length - 1
-    const newIndex = isLastItem 
-      ? 0 
-      : currentIndex + 1
+    const newIndex = isLastItem ? 0 : currentIndex + 1
     setCurrentIndex(newIndex)
   }
 
@@ -56,8 +54,8 @@ const Carousel = () => {
         className={style.Carousel__Inner}
         style={{ transform: `translate(-${currentIndex * 100}%)` }}
       >
-        {motorcycleModels.map((item) => {
-          return <CarouselItem item={item} {...item} />
+        {motorcycleModels.map((item, index) => {
+          return <CarouselItem item={item} {...item} key={item.id} />
         })}
       </div>
 
@@ -71,7 +69,7 @@ const Carousel = () => {
           {motorcycleModels.map((item, index) => {
             return (
               <button
-                key={item}
+                key={item.id}
                 className={style.Radio_Indicator}
                 onClick={() => goItem(index)}
               >

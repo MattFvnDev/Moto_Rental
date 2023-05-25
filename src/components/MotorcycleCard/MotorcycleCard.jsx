@@ -9,7 +9,7 @@ const MotorcycleCard = ({ model }) => (
   <>
     {model.map((value) => {
       return (
-        <div className={style.MotorcycleCard_Content}>
+        <div key={value.id} className={style.MotorcycleCard_Content}>
           <div className={style.MotorcycleCard_Title}>
             <div key={value.id} className={style.MotorcycleCard_Title__Text}>
               <h3>{value.brand}</h3>
