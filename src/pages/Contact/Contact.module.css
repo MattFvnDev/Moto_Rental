@@ -7,3 +7,218 @@
   padding: 0 1.5rem !important;
 }
 
+.Contact_Content {
+  color: #000000;
+  padding: 10rem 1rem;
+  flex-direction: column;
+  display: flex;
+  background-image: url("../../assets/contact/contact.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+
+.Contact__Text {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  text-align: center;
+  color: #000000;
+  margin-bottom: 3rem;
+  width: 100%;
+  max-width: 50rem;
+}
+
+.Contact__Text h2 {
+  font-size: 4rem;
+  margin-bottom: 1rem;
+}
+
+.Contact__Text p {
+  font-size: 1.6rem;
+  color: #888888;
+}
+
+.Contact__Text_Content {
+  display: none;
+}
+.Contact__Text_Content img {
+  display: none;
+}
+
+.Contact__Text_Content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+.Contact__Text_Content__Box {
+  display: flex;
+  align-items: center;
+}
+
+.Contact__Text_Content__Box p {
+  color: #000000;
+  font-size: 1.8rem;
+  font-weight: 500;
+  margin-left: 2rem;
+}
+
+.Contact__Form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 50rem;
+}
+
+.Form_Content {
+  display: flex;
+  flex-direction: column;
+}
+
+.Form_Content__Box {
+  display: flex;
+  flex-direction: column;
+}
+
+.Form_Content__Box label {
+  font-size: 1.6rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  display: flex;
+  gap: 1rem;
+}
+.Form_Content__Box b {
+  color: #1690f3;
+}
+
+.Form_Content__Box input {
+  border: 2px solid #1690f3;
+  border-radius: 5px;
+  background-color: #d9efff;
+  outline: none;
+  padding: 1.5rem 1.5rem;
+  cursor: pointer;
+  margin-bottom: 2rem;
+}
+
+.Form_Content__Box input:focus {
+  border: 2px solid #daa520;
+}
+
+.Form_Content__Box textarea {
+  border: 2px solid #1690f3;
+  border-radius: 5px;
+  background-color: #d9efff;
+  outline: none;
+  padding: 1.5rem 1.5rem;
+  cursor: pointer;
+  margin-bottom: 3rem;
+}
+
+.Form_Content__Box textarea:focus {
+  border: 2px solid #daa520;
+}
+
+.Consent {
+  display: flex;
+  align-items: center;
+  margin-bottom: 2rem;
+  flex-direction: column;
+}
+
+.Consent input {
+  align-items: center;
+  accent-color: #daa520;
+  width: 3rem;
+  height: 3rem;
+  min-width: 3rem;
+  cursor: pointer;
+  margin-right: 1rem;
+}
+
+.Consent label {
+  font-size: 1.6rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  gap: 1rem;
+  align-self: flex-start;
+  display: flex;
+}
+
+.Consent b {
+  color: #1690f3;
+}
+
+.Consent div {
+  color: #888888;
+  font-size: 1.6rem;
+  font-weight: 500;
+  display: flex;
+}
+
+.Send {
+  background-color: #1690f3;
+  border: 2px solid #1690f3;
+  border-radius: 5px;
+  padding: 1rem 3rem;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 2rem;
+  width: 100%;
+  max-width: 30rem;
+  cursor: pointer;
+  align-self: center;
+}
+.Send:hover {
+  background: linear-gradient(45deg, #88b8f7, #008cff, #88b8f7);
+}
+
+.Contact__Map {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  color: #000000;
+}
+
+.Contact__Map h2 {
+  font-size: 4.2rem;
+  margin-bottom: 1rem;
+}
+
+.Contact__Map iframe {
+  width: 100%;
+  height: 40rem;
+  margin-top: 2rem;
+  border-radius: 5px;
+}
+
+.Error {
+  color: #ff0000;
+}
+
+@media screen and (width>= 600px) {
+  .Contact_Content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+    column-gap: 4rem;
+  }
+
+  .Contact__Text {
+    text-align: start;
+    gap: 4rem;
+  }
+  .Contact__Text_Content {
+    gap: 4rem;
+    margin-top: 4rem;
+  }
+  .Send {
+    align-self: flex-start;
+  }
+}

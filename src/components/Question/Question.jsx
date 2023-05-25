@@ -16,7 +16,7 @@ const Question = ({
   return (
     <div className={style.Question}>
       <div className={style.Question_Content} onClick={toggleQuestion}>
-        <div className={style.Question_Content__Box}>{question}</div>
+        <div className={style.Question_Content__Box} >{question}</div>
         <div className={style.Question_Content__Arrow}>
           {isActiveQuestion ? (
             <TbCircleArrowUpFilled size={40} style={{ color: "#1690f3" }} />

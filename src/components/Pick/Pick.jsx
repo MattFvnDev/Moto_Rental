@@ -1,8 +1,6 @@
 import React from "react"
 import style from "./Pick.module.css"
 import { Carousel } from "../index"
-import { Link } from "react-router-dom"
-import { FaCheckDouble } from "react-icons/fa"
 
 const Pick = () => {
   return (
