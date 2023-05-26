@@ -134,3 +134,204 @@
     grid-template-rows: repeat(auto);
   }
 }
+
+/* Modal */
+
+.Modal_Active {
+  opacity: 1 !important;
+  display: flex !important;
+}
+
+.Modal_Overlay {
+  opacity: 0;
+  display: none;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  z-index: 999999999;
+  top: 0;
+  right: 0;
+}
+.Modal {
+  opacity: 0;
+  display: none;
+  flex-direction: column;
+  position: fixed;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  z-index: 999999999999;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  max-width: 80rem;
+  height: 100vh;
+  border: 3px solid #1690f3;
+  background-color: #f8f8f8;
+  padding: 1rem;
+}
+
+.Modal__Title {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  align-items: center;
+}
+
+.Modal__Title h2 {
+  font-size: 3.2rem;
+}
+
+.Modal__Information {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  padding: 1rem;
+  text-align: center;
+}
+
+.Modal__Information h4 {
+  font-size: 2.4rem;
+  color: #1690f3;
+}
+
+.Modal__Information p {
+  font-size: 1.6rem;
+  color: #888888;
+  font-weight: 500;
+}
+
+.Modal__Moto_Details {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  border-bottom: 3px solid #daa520;
+  color: #000000;
+  text-align: center;
+}
+
+.Modal_Container {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  text-align: center;
+}
+
+.Modal_Container h4 {
+  font-size: 2.4rem;
+}
+
+.Modal__Moto_Details__Dates {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+.Modal__Moto_Details__Dates__Box {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.Modal__Moto_Details__Dates__Box h5 {
+  font-size: 2.4rem;
+  margin-top: 2rem;
+}
+
+.Modal__Moto_Details__Dates h5 {
+  color: #1690f3;
+  font-size: 1.6rem;
+}
+
+.Modal__Moto_Details__Dates p {
+  color: #888888;
+  font-size: 1.6rem;
+  font-weight: 600;
+}
+
+.Modal__Moto_Informations {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.Modal__Moto_Informations h4 {
+  font-size: 2.4rem;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+
+.Modal__Form {
+  display: flex;
+  flex-direction: column;
+}
+
+.Form_Content__Box {
+  display: flex;
+  flex-direction: column;
+}
+
+.Form_Content__Box label {
+  font-size: 1.6rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  display: flex;
+  gap: 1rem;
+}
+
+.Form_Content__Box b {
+  color: #1690f3;
+}
+
+.Form_Content__Box input {
+  border: 2px solid #1690f3;
+  border-radius: 5px;
+  background-color: #d9efff;
+  outline: none;
+  padding: 1.5rem 1.5rem;
+  cursor: pointer;
+  margin-bottom: 2rem;
+}
+
+.Form_Content__Box input:focus {
+  border: 2px solid #daa520;
+}
+
+.Book_Now {
+  background-color: #1690f3;
+  border: 2px solid #1690f3;
+  border-radius: 5px;
+  padding: 1rem 3rem;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 2rem;
+  width: 100%;
+  max-width: 30rem;
+  cursor: pointer;
+  align-self: center;
+  margin-top: 2rem;
+}
+
+@media screen and (width >= 600px) {
+  .Modal_Container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .Modal_Container h4 {
+    grid-column: 1/-1;
+  }
+  .Modal__Form {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+    column-gap: 4rem;
+  }
+  .Book_Now {
+    justify-self: center;
+    display: grid;
+    grid-column: 1/-1;
+  }
+}
