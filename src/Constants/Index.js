@@ -213,7 +213,7 @@ export const questions = [
     id: "question-2",
     question: "2. What is your best price guarantee?",
     answer:
-      "We work with the largest network of motorbike rental agencies in the world, the Riderly team works with them day and night to ensure we are always best on price in the market. If you found the same rental cheaper elsewhere, get in touch and we'll match their price.",
+      "We work with the largest network of motorbike rental agencies in Poland. Our team works with them day and night to ensure we are always best on price in the market. If you found the same rental cheaper elsewhere, get in touch and we'll match their price.",
   },
   {
     id: "question-3",

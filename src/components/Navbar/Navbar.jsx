@@ -55,7 +55,6 @@ const Navbar = () => {
           onClick={() => setOpen((prev) => !prev)}
         >
           {open ? <CgClose size={40} /> : <CgMenu size={40} />}
-          
         </div>
       </nav>
     </>
