@@ -42,10 +42,10 @@ const Navbar = () => {
           </li>
         </ul>
         <div className={style.Navbar__Buttons}>
-          <Link className={style.SignIn} to="signin">
+          <Link className={style.SignIn} to="/">
             Sign in
           </Link>
-          <Link className={style.Register} to="register">
+          <Link className={style.Register} to="/">
             Register
           </Link>
         </div>

@@ -5,8 +5,6 @@ import {
   About,
   Contact,
   Models,
-  Register,
-  SignIn,
   Team,
   TestimonialsPage,
   Success,
@@ -33,8 +31,6 @@ export function Router() {
           <Route path="testimonials" element={<TestimonialsPage />} />
           <Route path="team" element={<Team />} />
           <Route path="contact" element={<Contact />} />
-          <Route path="signin" element={<SignIn />} />
-          <Route path="register" element={<Register />} />
           <Route path="success" element={<Success />} />
           <Route path="confirmation" element={<Confirmation />} />
         </Route>
