@@ -1,4 +1,4 @@
-import React, { useState } from "react"
+import React, { useState, useEffect } from "react"
 import style from "./BookForm.module.css"
 import { RiMotorbikeFill } from "react-icons/ri"
 import { GoLocation, GoCalendar } from "react-icons/go"
@@ -15,6 +15,15 @@ const BookForm = () => {
   const [pickTime, setPickTime] = useState("")
   const [dropTime, setDropTime] = useState("")
 
+  // Disable page scroll when modal shows
+  useEffect(() => {
+    if (isModalOpen === true) {
+      document.body.style.overflow = "hidden"
+    } else {
+      document.body.style.overflow = "auto"
+    }
+  }, [isModalOpen])
+
   // Open modal when all Booking inputs are selected
   const openModal = (e) => {
     e.preventDefault()
@@ -30,7 +39,7 @@ const BookForm = () => {
     }
   }
 
-  // Getting value each booking input
+  // Getting value each Booking input
   const handleMoto = (e) => {
     setMotoType(e.target.value)
   }
@@ -54,7 +63,7 @@ const BookForm = () => {
   return (
     <>
       <section id="Booking-Section" className={style.Book_Section}>
-        {/* Modal that floats above the rest of the Home page, we can use a portal to create it. */}
+        {/* Use portal to create Modal that floats above the rest of the Home page. */}
         <Modal
           isOpen={isModalOpen}
           pickTime={pickTime}
@@ -62,7 +71,7 @@ const BookForm = () => {
           pickUp={pickUp}
           dropOff={dropOff}
           motoType={motoType}
-          onClose={()=> setIsModalOpen(false)}
+          onClose={() => setIsModalOpen(false)}
         />
         <div className={style.Book_Container}>
           <div className={style.Book_Content}>
