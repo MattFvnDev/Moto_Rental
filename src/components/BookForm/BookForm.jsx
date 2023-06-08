@@ -3,7 +3,7 @@ import style from "./BookForm.module.css"
 import { RiMotorbikeFill } from "react-icons/ri"
 import { GoLocation, GoCalendar } from "react-icons/go"
 import { cities, motorcycles } from "../../constants"
-
+import { Modal } from "../index"
 
 const BookForm = () => {
   const [isModalOpen, setIsModalOpen] = useState(false)
@@ -51,10 +51,19 @@ const BookForm = () => {
     setDropTime(e.target.value)
   }
 
-
   return (
     <>
       <section id="Booking-Section" className={style.Book_Section}>
+        {/* Modal that floats above the rest of the Home page, we can use a portal to create it. */}
+        <Modal
+          isOpen={isModalOpen}
+          pickTime={pickTime}
+          dropTime={dropTime}
+          pickUp={pickUp}
+          dropOff={dropOff}
+          motoType={motoType}
+          onClose={()=> setIsModalOpen(false)}
+        />
         <div className={style.Book_Container}>
           <div className={style.Book_Content}>
             <div className={style.Book_Content__Box}>

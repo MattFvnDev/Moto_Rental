@@ -7,6 +7,7 @@ import SignIn from "./SignIn/SignIn";
 import Team from "./Team/Team";
 import TestimonialsPage from "./TestimonialsPage/TestimonialsPage";
 import Success from "./Success/Success";
+import Confirmation from "./Confirmation/Confirmation";
 
 
-export { About, Contact, Home, Models, Register, SignIn, Team, TestimonialsPage, Success};
+export { About, Contact, Home, Models, Register, SignIn, Team, TestimonialsPage, Success, Confirmation};

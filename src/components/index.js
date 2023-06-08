@@ -21,6 +21,7 @@ import CarouselItem from "./CarouselItem/CarouselItem"
 import FAQ from "./FAQ/FAQ"
 import Accordion from "./Accordion/Accordion"
 import Question from "./Question/Question"
+import Modal from "./Modal/Modal"
 
 export {
   Hero,
@@ -46,4 +47,5 @@ export {
   FAQ,
   Accordion,
   Question,
+  Modal,
 }

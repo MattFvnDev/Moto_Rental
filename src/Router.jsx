@@ -10,6 +10,7 @@ import {
   Team,
   TestimonialsPage,
   Success,
+  Confirmation,
 } from "./pages/index"
 import { BrowserRouter, Routes, Route, Outlet } from "react-router-dom"
 
@@ -34,7 +35,8 @@ export function Router() {
           <Route path="contact" element={<Contact />} />
           <Route path="signin" element={<SignIn />} />
           <Route path="register" element={<Register />} />
-          <Route path="/success" element={<Success />} />
+          <Route path="success" element={<Success />} />
+          <Route path="confirmation" element={<Confirmation />} />
         </Route>
       </Routes>
     </BrowserRouter>
