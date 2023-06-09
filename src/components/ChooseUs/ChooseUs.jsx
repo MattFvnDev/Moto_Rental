@@ -4,7 +4,7 @@ import { Link } from "react-router-dom"
 import { group } from "../../assets"
 import { choices } from "..//../constants/index"
 import { FaAngleRight } from "react-icons/fa"
-import {ChooseCard} from "../index"
+import { ChooseCard } from "../index"
 
 const ChooseUs = () => (
   <>
@@ -18,10 +18,9 @@ const ChooseUs = () => (
               <h2>Best deals you have ever seen</h2>
               <p>
                 Discover the best deals you'll ever find with our unbeatable
-                offers. We're providing you the best value for your money, so
-                you can enjoy top-quality services and products without breaking
-                the bank. Our deals are designed to give you the ultimate
-                renting experience.
+                offers. We're providing you the top-quality services for your
+                money. Our deals are designed to give you the ultimate renting
+                experience.
               </p>
               <Link
                 onClick={() => window.scrollTo(0, 0)}

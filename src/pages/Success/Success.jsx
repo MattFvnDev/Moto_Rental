@@ -15,11 +15,11 @@ const Success = () => {
         </h1>
         <div className={style.Success_Content__Text}>
           <p>
-            We have sent you an email over at{" "}
+            We have sent you a confirmation over at{" "}
             <span> {location.state.values.emailAdress}</span>
             <br></br>
           </p>
-          <p>We will get back with a reply as soon as possible.</p>
+          <p>We'll get back with a reply as soon as possible.</p>
         </div>
         <Link to="/">Back</Link>
       </div>

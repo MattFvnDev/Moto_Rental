@@ -3,24 +3,22 @@ import style from "./Plan.module.css"
 import { plans } from "../../constants/index"
 import { PlanCard } from "../index"
 
-const Plan = () => {
-  return (
-    <section id="Plan-Section" className={style.Plan_Section}>
-      <div className={style.Plan_Container}>
-        <div className={style.Plan_Content}>
-          <div className={style.Plan_Content__Title}>
-            <h3>Plan your rental now</h3>
-            <h2>Lightning-fast and simple experience</h2>
-          </div>
-          <div className={style.PlanCard_Container}>
-            {plans.map((plan) => (
-              <PlanCard key={plan.id} {...plan} />
-            ))}
-          </div>
+const Plan = () => (
+  <section id="Plan-Section" className={style.Plan_Section}>
+    <div className={style.Plan_Container}>
+      <div className={style.Plan_Content}>
+        <div className={style.Plan_Content__Title}>
+          <h3>Plan your rental now</h3>
+          <h2>Lightning-fast and simple experience</h2>
+        </div>
+        <div className={style.PlanCard_Container}>
+          {plans.map((plan) => (
+            <PlanCard key={plan.id} {...plan} />
+          ))}
         </div>
       </div>
-    </section>
-  )
-}
+    </div>
+  </section>
+)
 
 export default Plan

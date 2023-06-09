@@ -11,7 +11,7 @@ const Banner = () => (
               Save <span>huge</span> with the cheapest rental offers!
             </h3>
             <p>
-              Best locations in Poland.&nbsp;Top local motorcycle dealers.
+              Best cities in Poland.&nbsp;Top local motorcycle dealers.
               <span> 24/7</span> Support.
             </p>
           </div>

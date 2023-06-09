@@ -50,9 +50,10 @@ const Hero = () => {
                 Save <span>huge</span> with our rental plan
               </h1>
               <p>
-                Rent the motorcycle of your dreams. Unbeatable prices, unlimited
-                miles, flexible pick-up options and convenient monthly payment
-                schedule
+                Rent the motorcycle of your dreams. Flexible pick-up options and
+                convenient monthly payment schedule. Unbeatable prices,
+                unlimited miles and the best rental experience you've eved had
+                in Poland.
               </p>
               <div className={style.Hero_Content__Text__Buttons}>
                 <Link className={style.BookRide} onClick={bookARideButton}>
