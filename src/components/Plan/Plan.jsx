@@ -1,6 +1,6 @@
 import React from "react"
 import style from "./Plan.module.css"
-import { plans } from "../../constants/index"
+import { plans } from "../../constants"
 import { PlanCard } from "../index"
 
 const Plan = () => (

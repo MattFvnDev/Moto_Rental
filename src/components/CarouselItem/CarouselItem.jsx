@@ -23,7 +23,7 @@ const CarouselItem = ({
         <div className={style.CarouselItem_Title__Text}>
           <h3>{brand}</h3>
           <h4>{model}</h4>
-          <p>{price} per day</p>
+          <p>{price} /day</p>
         </div>
         <img src={img} alt={model} />
         <h5>{type}</h5>

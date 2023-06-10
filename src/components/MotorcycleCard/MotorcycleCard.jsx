@@ -14,7 +14,7 @@ const MotorcycleCard = ({ model }) => (
             <div key={value.id} className={style.MotorcycleCard_Title__Text}>
               <h3>{value.brand}</h3>
               <h4>{value.model}</h4>
-              <p>{value.price} per day</p>
+              <p>{value.price} /day</p>
             </div>
             <img src={value.img} alt={value.model} />
           </div>
