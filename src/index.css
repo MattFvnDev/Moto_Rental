@@ -9,12 +9,15 @@
 html {
   font-size: 62.5%;
   scroll-behavior: smooth;
+  height: -webkit-fill-available;
 }
 
 body {
   background-color: #ffffff;
   position: relative;
   font-family: "Montserrat", sans-serif, "Poppins", sans-serif;
+  min-height: 100vh;
+  min-height: -webkit-fill-available;
 }
 
 li {

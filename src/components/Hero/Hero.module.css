@@ -119,7 +119,7 @@
 
 /* Media queries */
 
-@media screen and (min-width: 450px) {
+@media screen and (width >= 450px) {
   .Hero_Content__Text__Buttons {
     flex-direction: row;
     gap: 2rem;
@@ -132,7 +132,7 @@
   }
 }
 
-@media screen and (min-width: 500px) {
+@media screen and (width >= 500px) {
   .BookRide {
     padding: 1.5rem 4.25rem;
   }
@@ -141,7 +141,7 @@
   }
 }
 
-@media screen and (min-width: 900px) {
+@media screen and (width >= 900px) {
   .Hero_Content {
     justify-content: start;
     text-align: start;
@@ -173,33 +173,33 @@
   }
 }
 
-@media screen and (min-width: 1440px) {
+@media screen and (width >= 1440px) {
   .Shape {
     right: 4rem;
   }
 }
 
-@media screen and (min-width: 1640px) {
+@media screen and (width >= 1640px) {
   .Shape {
     right: 13rem;
   }
 }
-@media screen and (min-width: 1840px) {
+@media screen and (width >= 1840px) {
   .Shape {
     right: 23rem;
   }
 }
-@media screen and (min-width: 2040px) {
+@media screen and (width >= 2040px) {
   .Shape {
     right: 33rem;
   }
 }
-@media screen and (min-width: 2240px) {
+@media screen and (width >= 2240px) {
   .Shape {
     right: 43rem;
   }
 }
-@media screen and (min-width: 2440px) {
+@media screen and (width >= 2440px) {
   .Shape {
     right: 53rem;
   }
