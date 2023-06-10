@@ -161,14 +161,14 @@
     display: flex;
     position: absolute;
     right: 0;
-    top: 4rem;
+    top: 6rem;
     z-index: 1;
   }
   .Motorcycle {
     display: flex;
     position: absolute;
     right: 0;
-    top: 28rem;
+    top: 30rem;
     z-index: 2;
   }
 }

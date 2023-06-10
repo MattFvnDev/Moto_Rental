@@ -11,7 +11,7 @@ import {
   MobileApp,
   Pick,
   FAQ,
-} from "../../components/index"
+} from "../../components"
 
 const Home = () => (
   <>
@@ -21,7 +21,7 @@ const Home = () => (
     <BookForm />
     <Banner />
     <ChooseUs />
-    <FAQ/>
+    <FAQ />
     <Testimonials />
     <MobileApp />
     <Footer />

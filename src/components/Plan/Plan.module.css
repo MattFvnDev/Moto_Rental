@@ -38,7 +38,7 @@
   text-align: center;
 }
 
-@media screen and (min-width: 630px) {
+@media screen and (width >= 630px) {
   .PlanCard_Container {
     display: grid;
     gap: 2.5rem;
@@ -50,7 +50,7 @@
   }
 }
 
-@media screen and (min-width: 1000px) {
+@media screen and (width >= 1000px) {
   .PlanCard_Container {
     gap: 3.5rem;
     grid-template-columns: repeat(3, 1fr);
@@ -62,7 +62,7 @@
   }
 }
 
-@media screen and (min-width: 1440px) {
+@media screen and (width >= 1440px) {
   .PlanCard_Container {
     gap: 4rem;
   }

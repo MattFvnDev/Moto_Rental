@@ -177,6 +177,7 @@
   cursor: pointer;
   align-self: center;
   margin-top: 2rem;
+  margin-bottom: 2rem;
 }
 
 .Book_Now:hover {

@@ -1,5 +1,5 @@
 import Scroll from "./components/Scroll/Scroll"
-import { Navbar } from "./components/index"
+import { Navbar } from "./components"
 import {
   Home,
   About,
@@ -9,7 +9,7 @@ import {
   TestimonialsPage,
   Success,
   Confirmation,
-} from "./pages/index"
+} from "./pages"
 import { BrowserRouter, Routes, Route, Outlet } from "react-router-dom"
 
 export function Router() {

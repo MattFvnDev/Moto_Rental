@@ -2,7 +2,7 @@ import React from "react"
 import style from "./ChooseUs.module.css"
 import { Link } from "react-router-dom"
 import { group } from "../../assets"
-import { choices } from "..//../constants"
+import { choices } from "../../constants"
 import { FaAngleRight } from "react-icons/fa"
 import { ChooseCard } from "../index"
 

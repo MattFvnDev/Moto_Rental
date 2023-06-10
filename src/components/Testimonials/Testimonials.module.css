@@ -48,7 +48,7 @@
   width: 100%;
 }
 
-@media screen and (min-width: 550px) {
+@media screen and (width >= 550px) {
   .Testimonials_Content__Text h4 {
     font-size: 3.2rem;
   }
@@ -60,7 +60,7 @@
   }
 }
 
-@media screen and (min-width: 630px) {
+@media screen and (width >= 630px) {
   .Testimonials_Content__Cards {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -71,7 +71,7 @@
   }
 }
 
-@media screen and (min-width: 1000px) {
+@media screen and (width >= 1000px) {
   .Testimonials_Content__Cards {
     grid-template-columns: repeat(3, 1fr);
   }

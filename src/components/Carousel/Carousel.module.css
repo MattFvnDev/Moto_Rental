@@ -84,7 +84,7 @@
   color: #ffffff;
 }
 
-@media screen and (width>= 800px) {
+@media screen and (width >= 800px) {
   .Carousel {
     width: 50%;
     height: 65rem;
@@ -108,7 +108,7 @@
   }
 }
 
-@media screen and (width>= 1150px) {
+@media screen and (width >= 1150px) {
   .Left_Arrow {
     left: 4rem;
     top: 40%;

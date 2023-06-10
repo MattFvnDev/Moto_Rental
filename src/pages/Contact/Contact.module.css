@@ -195,7 +195,7 @@
   color: #ff0000;
 }
 
-@media screen and (width>= 600px) {
+@media screen and (width >= 600px) {
   .Contact_Content {
     display: grid;
     grid-template-columns: repeat(2, 1fr);

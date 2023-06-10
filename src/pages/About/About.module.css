@@ -19,7 +19,7 @@
 .About_Main img {
   max-width: 100%;
   height: auto;
-  border-radius:5px;
+  border-radius: 5px;
 }
 
 .About_Main__Text {
@@ -77,14 +77,14 @@
   margin-top: 0;
 }
 
-@media screen and (width>=768px) {
+@media screen and (width >=768px) {
   .About_Main__Text__Icons {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
   }
 }
 
-@media screen and (width>= 950px) {
+@media screen and (width >= 950px) {
   .About_Main {
     display: grid;
     grid-template-columns: repeat(2, 1fr);

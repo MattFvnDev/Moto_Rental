@@ -6,7 +6,7 @@
   left: 0;
   margin: 0 auto;
   max-width: 133rem;
-  padding: 5rem 3rem;
+  padding: 4.5rem 2rem;
   position: absolute;
   right: 0;
   top: 0;
@@ -58,7 +58,7 @@
   transition: 0.4s;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (width <= 1000px) {
   .Navbar__Links {
     display: none;
   }
@@ -72,7 +72,7 @@
   display: none;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (width <= 1000px) {
   .Mobile__Hamburger {
     display: flex;
     position: absolute;

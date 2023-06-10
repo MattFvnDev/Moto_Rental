@@ -32,7 +32,7 @@
   color: #888888;
 }
 
-@media screen and (min-width: 550px) {
+@media screen and (width >= 550px) {
   .ChooseCard__Box {
     flex-direction: row;
   }
@@ -42,7 +42,7 @@
   }
 }
 
-@media screen and (min-width: 1000px) {
+@media screen and (width >= 1000px) {
   .ChooseCard__Box {
     gap: 2rem;
   }
