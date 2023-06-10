@@ -1,12 +1,7 @@
 import React from "react"
 import style from "./Team.module.css"
-import {
-  Footer,
-  PagesBanner,
-  PagesHeader,
-  TeamCard,
-} from "../../components/index"
-import { Employees } from "../../constants/index"
+import { Footer, PagesBanner, PagesHeader, TeamCard } from "../../components"
+import { Employees } from "../../constants"
 
 const Team = () => (
   <>

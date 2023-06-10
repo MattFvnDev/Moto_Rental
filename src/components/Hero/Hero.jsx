@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react"
 import style from "./Hero.module.css"
 import { Link } from "react-router-dom"
-import { main, shape } from "../../assets/index"
+import { main, shape } from "../../assets"
 import { FaCheckDouble, FaAngleDoubleRight, FaRoad } from "react-icons/fa"
 
 const Hero = () => {

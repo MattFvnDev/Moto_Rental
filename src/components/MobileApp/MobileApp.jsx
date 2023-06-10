@@ -1,6 +1,6 @@
 import React from "react"
 import style from "./MobileApp.module.css"
-import { google, apple } from "../../assets/index"
+import { google, apple } from "../../assets"
 
 const MobileApp = () => (
   <>

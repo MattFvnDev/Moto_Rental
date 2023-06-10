@@ -6,7 +6,7 @@ import {
   Footer,
   MotorcycleCard,
   Filter,
-} from "../../components/index"
+} from "../../components"
 import { motorcycleModels } from "../../constants"
 
 const Models = () => {

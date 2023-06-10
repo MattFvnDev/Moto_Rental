@@ -1,6 +1,6 @@
 import React from "react"
 import style from "./About.module.css"
-import { Footer, PagesBanner, PagesHeader, Plan } from "../../components/index"
+import { Footer, PagesBanner, PagesHeader, Plan } from "../../components"
 import { aboutmain } from "../../assets"
 import { about } from "../../constants"
 

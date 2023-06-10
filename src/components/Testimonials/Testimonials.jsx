@@ -1,6 +1,6 @@
 import React from "react"
 import style from "./Testimonials.module.css"
-import { testimonials } from "../../constants/index.js"
+import { testimonials } from "../../constants"
 import { TestimonialsCard } from "../index"
 
 const Testimonials = () => {

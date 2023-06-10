@@ -1,7 +1,6 @@
 import React from "react"
 import style from "./PagesHeader.module.css"
 import { Link } from "react-router-dom"
-import { Banner, Footer, Plan } from "../../components/index"
 
 const PagesHeader = ({ name }) => (
   <>
