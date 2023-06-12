@@ -15,8 +15,6 @@ const Modal = ({
   dropOff,
   motoType,
 }) => {
-  if (!isOpen) return null
-
   const navigate = useNavigate({})
 
   // Basic Formik Logics
@@ -53,7 +51,7 @@ const Modal = ({
       navigate("/confirmation", { state: { values } })
     },
   })
-
+  if (!isOpen) return null
   // CreatePortal that renders children into a different part of the Document Object Model
   return createPortal(
     <>
