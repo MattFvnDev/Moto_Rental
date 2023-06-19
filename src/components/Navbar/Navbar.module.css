@@ -60,6 +60,9 @@
 }
 
 @media screen and (width <= 1000px) {
+  .Navbar {
+    padding: 5rem 2rem;
+  }
   .Navbar__Links {
     display: none;
   }
