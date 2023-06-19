@@ -5,7 +5,7 @@
 .Testimonials_Container {
   max-width: 133rem !important;
   margin: 0 auto !important;
-  padding: 0 1.5rem !important;
+  padding: 0 2.5rem !important;
 }
 
 .Testimonials_Content {
@@ -44,7 +44,7 @@
   display: flex;
   flex-direction: column;
   gap: 6rem;
-  padding: 3rem;
+  padding: 1rem;
   width: 100%;
 }
 

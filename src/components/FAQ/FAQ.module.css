@@ -1,5 +1,5 @@
 .FAQ_Section {
-  padding: 14rem 0;
+  padding: 10rem 0;
   background-image: url("../../assets/FAQ/FAQ.webp");
   background-repeat: no-repeat;
   background-position: 0 40%;
@@ -10,7 +10,7 @@
 .FAQ_Container {
   margin: 0 auto !important;
   max-width: 133rem !important;
-  padding: 0 1.5rem !important;
+  padding: 0 2.5rem !important;
 }
 
 .FAQ_Content {

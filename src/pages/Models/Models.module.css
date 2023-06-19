@@ -1,11 +1,11 @@
 .Models_Container {
   margin: 0 auto !important;
   max-width: 133rem !important;
-  padding: 0 1.5rem !important;
+  padding: 0 2.5rem !important;
 }
 
 .Models_Container__Box {
-  padding: 10rem 1rem;
+  padding: 10rem 0;
   align-items: center;
   display: flex;
   gap: 4rem;

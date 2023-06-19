@@ -12,6 +12,7 @@
   top: 0;
   width: 100%;
   z-index: 5;
+  background-color: transparent;
 }
 
 .Navbar__Logo {
@@ -59,9 +60,6 @@
 }
 
 @media screen and (width <= 1000px) {
-  .Navbar {
-    padding: 5rem 2rem;
-  }
   .Navbar__Links {
     display: none;
   }

@@ -1,19 +1,20 @@
 .Confirmation_Container {
   margin: 0 auto !important;
   max-width: 133rem !important;
-  padding: 0 1.5rem !important;
+  padding: 0 2.5rem !important;
 }
 
 .Confirmation_Content {
   background-color: #ffffff;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  height: 95vh;
   display: flex;
   flex-direction: column;
   position: relative;
   text-align: center;
   color: #000000;
+  padding-top: 5rem;
 }
 
 .Confirmation_Content h1 {
