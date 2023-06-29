@@ -12,21 +12,15 @@
   top: 0;
   width: 100%;
   z-index: 5;
-  background-color: transparent;
 }
 
 .Navbar__Logo {
   width: 14.5rem;
 }
 
-.Navbar__Logo img {
-  height: 100%;
-  width: 100%;
-}
-
 .Navbar__Links {
   display: flex;
-  gap: 2rem;
+  gap: 1.5rem;
   font-size: 2rem;
 }
 
@@ -60,9 +54,6 @@
 }
 
 @media screen and (width <= 1000px) {
-  .Navbar {
-    padding: 5rem 2rem;
-  }
   .Navbar__Links {
     display: none;
   }

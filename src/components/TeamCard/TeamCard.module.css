@@ -12,6 +12,7 @@
 
 .TeamCard_Content__Box img {
   width: 100%;
+  object-fit: contain;
 }
 
 .TeamCard_Content__Box__Text {
