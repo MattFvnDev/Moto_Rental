@@ -42,7 +42,7 @@
 }
 
 .Hero_Content__Text h1 {
-  font-size: 4.2rem;
+  font-size: 3.6rem;
   margin-top: 2rem;
   margin-bottom: 3rem;
 }
@@ -170,6 +170,9 @@
     right: 0;
     top: 30rem;
     z-index: 2;
+  }
+  .Hero_Content__Text h1 {
+    font-size: 4.2rem;
   }
 }
 
