@@ -22,6 +22,7 @@ import FAQ from "./FAQ/FAQ"
 import Accordion from "./Accordion/Accordion"
 import Question from "./Question/Question"
 import Modal from "./Modal/Modal"
+import Scroll from "./Scroll/Scroll"
 
 export {
   Hero,
@@ -48,4 +49,5 @@ export {
   Accordion,
   Question,
   Modal,
+  Scroll
 }
