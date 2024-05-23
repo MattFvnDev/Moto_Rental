@@ -3,16 +3,20 @@ import { Link, NavLink } from "react-router-dom"
 import { logo } from "../../assets"
 import { CgClose, CgMenu } from "react-icons/cg"
 import style from "./Navbar.module.css"
+import { navigationLinks } from "../../constants"
 
 const Navbar = () => {
   const [open, setOpen] = useState(false)
+  const openLink = () => {
+    setOpen(!open)
+  }
 
   return (
     <>
       <nav className={style.Navbar}>
         <div className={style.Navbar__Logo}>
           <Link to="/">
-            <img src={logo} alt="" />
+            <img src={logo} alt="Moto Rental Logo" />
           </Link>
         </div>
         <ul
@@ -22,24 +26,11 @@ const Navbar = () => {
               : [style.Navbar__Links]
           }
         >
-          <li>
-            <NavLink to="/">Home</NavLink>
-          </li>
-          <li>
-            <NavLink to="about">About</NavLink>
-          </li>
-          <li>
-            <NavLink to="models">Models</NavLink>
-          </li>
-          <li>
-            <NavLink to="team">Team</NavLink>
-          </li>
-          <li>
-            <NavLink to="testimonials">Testimonials</NavLink>
-          </li>
-          <li>
-            <NavLink to="contact">Contact</NavLink>
-          </li>
+          {navigationLinks.map((link) => (
+            <NavLink onClick={openLink} key={link.id} to={link.path}>
+              {link.name}
+            </NavLink>
+          ))}
         </ul>
         <div className={style.Navbar__Buttons}>
           <Link className={style.SignIn} to="/">
