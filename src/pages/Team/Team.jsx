@@ -1,4 +1,3 @@
-import React from "react"
 import style from "./Team.module.css"
 import { PagesBanner, PagesHeader, TeamCard } from "../../components"
 import { Employees } from "../../constants"

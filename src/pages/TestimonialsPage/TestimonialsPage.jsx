@@ -1,4 +1,3 @@
-import React from "react"
 import style from "./TestimonialsPage.module.css"
 import {
   PagesHeader,

@@ -2,8 +2,6 @@ import { Footer, Navbar, Scroll } from "../components"
 import { Outlet } from "react-router-dom"
 import style from "./Layout.module.css"
 
-import React from "react"
-
 const Layout = () => {
   return (
     <div className={style.Layout}>

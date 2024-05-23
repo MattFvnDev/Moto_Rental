@@ -1,4 +1,3 @@
-import React from "react"
 import style from "./Contact.module.css"
 import { Banner, PagesHeader } from "../../components"
 import { BsFillTelephoneFill, BsFillEnvelopeFill } from "react-icons/bs"

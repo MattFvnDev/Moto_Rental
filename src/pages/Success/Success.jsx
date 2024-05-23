@@ -1,4 +1,3 @@
-import React from "react"
 import style from "./Success.module.css"
 import { Link } from "react-router-dom"
 import { useLocation } from "react-router-dom"
