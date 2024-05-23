@@ -3,7 +3,6 @@ import style from "./Models.module.css"
 import {
   PagesHeader,
   PagesBanner,
-  Footer,
   MotorcycleCard,
   Filter,
 } from "../../components"
@@ -46,7 +45,6 @@ const Models = () => {
           </div>
         </div>
         <PagesBanner />
-        <Footer />
       </section>
     </>
   )

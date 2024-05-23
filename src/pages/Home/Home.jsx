@@ -7,7 +7,6 @@ import {
   Banner,
   ChooseUs,
   Testimonials,
-  Footer,
   MobileApp,
   Pick,
   FAQ,
@@ -24,7 +23,6 @@ const Home = () => (
     <FAQ />
     <Testimonials />
     <MobileApp />
-    <Footer />
   </>
 )
 

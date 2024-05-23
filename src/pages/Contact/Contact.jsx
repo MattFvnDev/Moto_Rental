@@ -1,6 +1,6 @@
 import React from "react"
 import style from "./Contact.module.css"
-import { Banner, Footer, PagesHeader } from "../../components"
+import { Banner, PagesHeader } from "../../components"
 import { BsFillTelephoneFill, BsFillEnvelopeFill } from "react-icons/bs"
 import { IoLocationSharp } from "react-icons/io5"
 import { RiMailSendFill } from "react-icons/ri"
@@ -236,7 +236,6 @@ const Contact = () => {
           </div>
         </div>
         <Banner />
-        <Footer />
       </section>
     </>
   )

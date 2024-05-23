@@ -4,7 +4,6 @@ import {
   PagesHeader,
   PagesBanner,
   Testimonials,
-  Footer,
 } from "../../components"
 
 const TestimonialsPage = () => (
@@ -13,8 +12,7 @@ const TestimonialsPage = () => (
       <PagesHeader name={"Testimonials"} />
       <Testimonials />
       <PagesBanner />
-      <Footer />
-    </section>
+      </section>
   </>
 )
 

@@ -1,6 +1,6 @@
 import React from "react"
 import style from "./Team.module.css"
-import { Footer, PagesBanner, PagesHeader, TeamCard } from "../../components"
+import { PagesBanner, PagesHeader, TeamCard } from "../../components"
 import { Employees } from "../../constants"
 
 const Team = () => (
@@ -13,7 +13,6 @@ const Team = () => (
         ))}
       </div>
       <PagesBanner />
-      <Footer />
     </section>
   </>
 )

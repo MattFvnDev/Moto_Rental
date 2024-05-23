@@ -1,6 +1,6 @@
 import React from "react"
 import style from "./About.module.css"
-import { Footer, PagesBanner, PagesHeader, Plan } from "../../components"
+import { PagesBanner, PagesHeader, Plan } from "../../components"
 import { aboutmain } from "../../assets"
 import { about } from "../../constants"
 
@@ -39,7 +39,6 @@ const About = () => (
       <Plan />
       <PagesBanner />
     </section>
-    <Footer />
   </>
 )
 

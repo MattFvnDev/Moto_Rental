@@ -1,14 +1,18 @@
-import { Navbar, Scroll } from "../components"
+import { Footer, Navbar, Scroll } from "../components"
 import { Outlet } from "react-router-dom"
+import style from "./Layout.module.css"
 
 import React from "react"
 
 const Layout = () => {
   return (
-    <div>
+    <div className={style.Layout}>
       <Scroll />
       <Navbar />
-      <Outlet />
+      <main className={style.Layout__Container}>
+        <Outlet />
+      </main>
+      <Footer />
     </div>
   )
 }
