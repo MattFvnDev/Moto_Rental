@@ -52,7 +52,7 @@ const Hero = () => {
               <p>
                 Rent the motorcycle of your dreams. Flexible pick-up options and
                 convenient monthly payment schedule. Unbeatable prices,
-                unlimited miles and the best rental experience you've eved had
+                unlimited miles and the best rental experience you've ever had
                 in Poland.
               </p>
               <div className={style.Hero_Content__Text__Buttons}>
