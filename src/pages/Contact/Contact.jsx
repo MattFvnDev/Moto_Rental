@@ -38,7 +38,7 @@ const Contact = () => {
     }),
     // Submit Form
     onSubmit: (values) => {
-      console.log("Contact Form Submitted", formik.values)
+      formik.values
       // Navigate on submission, pass form values in route state
       navigate("/success", { state: { values }, replace: true })
     },
