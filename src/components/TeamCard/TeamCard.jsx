@@ -2,7 +2,6 @@ import React from "react"
 import style from "./TeamCard.module.css"
 
 const TeamCard = ({ img, name, occupation }) => (
-  <>
     <div className={style.TeamCard_Content}>
       <div className={style.TeamCard_Content__Box}>
         <img src={img} alt="" />
@@ -12,7 +11,6 @@ const TeamCard = ({ img, name, occupation }) => (
         <p>{occupation}</p>
       </div>
     </div>
-  </>
 )
 
 export default TeamCard

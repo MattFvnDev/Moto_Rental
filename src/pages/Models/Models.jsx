@@ -29,7 +29,6 @@ const Models = () => {
   }
 
   return (
-    <>
       <section className={style.Models_Page}>
         <PagesHeader name={"Models"} />
         <div className={style.Models_Container}>
@@ -46,7 +45,6 @@ const Models = () => {
         </div>
         <PagesBanner />
       </section>
-    </>
   )
 }
 

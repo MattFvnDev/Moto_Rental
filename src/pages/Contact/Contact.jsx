@@ -45,7 +45,6 @@ const Contact = () => {
   })
 
   return (
-    <>
       <section className={style.Contact_Page}>
         <PagesHeader name={"Contact"} />
         <div className={style.Contact_Container}>
@@ -236,7 +235,6 @@ const Contact = () => {
         </div>
         <Banner />
       </section>
-    </>
   )
 }
 export default Contact

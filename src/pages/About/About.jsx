@@ -4,7 +4,6 @@ import { aboutmain } from "../../assets"
 import { about } from "../../constants"
 
 const About = () => (
-  <>
     <section className={style.About_Page}>
       <PagesHeader name={"About"} />
       <div className={style.About_Container}>
@@ -38,7 +37,6 @@ const About = () => (
       <Plan />
       <PagesBanner />
     </section>
-  </>
 )
 
 export default About
