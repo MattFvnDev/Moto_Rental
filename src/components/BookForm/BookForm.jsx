@@ -61,7 +61,6 @@ const BookForm = () => {
   }
 
   return (
-    <>
       <section id="Booking-Section" className={style.Book_Section}>
         {/* Use portal to create Modal that floats above the rest of the Home page. */}
         <Modal
@@ -152,7 +151,6 @@ const BookForm = () => {
           </div>
         </div>
       </section>
-    </>
   )
 }
 

@@ -3,7 +3,6 @@ import style from "./MobileApp.module.css"
 import { google, apple } from "../../assets"
 
 const MobileApp = () => (
-  <>
     <section className={style.MobileApp_Section}>
       <div className={style.MobileApp_Container}>
         <div className={style.MobileApp_Content}>
@@ -24,7 +23,6 @@ const MobileApp = () => (
         </div>
       </div>
     </section>
-  </>
 )
 
 export default MobileApp

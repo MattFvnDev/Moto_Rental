@@ -10,7 +10,7 @@ const Question = ({
   questionIndex,
 }) => {
   const toggleQuestion = () => {
-    const nextQuestion = isActiveQuestion ? null : questionIndex
+    const nextQuestion = isActiveQuestion ? "" : questionIndex
     setActiveIndex(nextQuestion)
   }
   return (
