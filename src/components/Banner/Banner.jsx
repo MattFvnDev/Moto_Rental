@@ -2,7 +2,6 @@ import React from "react"
 import style from "./Banner.module.css"
 
 const Banner = () => (
-  <>
     <section id="Banner-Section" className={style.Banner_Section}>
       <div className={style.Banner_Container}>
         <div className={style.Banner_Content}>
@@ -18,7 +17,6 @@ const Banner = () => (
         </div>
       </div>
     </section>
-  </>
 )
 
 export default Banner
