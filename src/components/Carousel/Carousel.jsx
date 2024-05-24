@@ -54,15 +54,18 @@ const Carousel = () => {
         className={style.Carousel__Inner}
         style={{ transform: `translate(-${currentIndex * 100}%)` }}
       >
-        {motorcycleModels.map((item, index) => {
-          return <CarouselItem item={item} {...item} key={item.id} />
-        })}
+        {motorcycleModels.map((item) => (
+          <CarouselItem {...item} key={item.id} />
+        ))}
       </div>
 
       <div className={style.Carousel__Buttons}>
         <button className={style.Left_Arrow} onClick={goBackward}>
           <span>
-            <MdOutlineArrowBackIos size={40} style={{ color: "#1690f3" }} />
+            <MdOutlineArrowBackIos
+              size={40}
+              style={{ color: "#1690f3" }}
+            />
           </span>
         </button>
         <div className={style.Radio__Buttons}>
@@ -80,7 +83,7 @@ const Carousel = () => {
                       : `${style.Indicator}`
                   }`}
                 >
-                  <MdRadioButtonChecked size={25} />
+                  <MdRadioButtonChecked size={20} />
                 </span>
               </button>
             )
