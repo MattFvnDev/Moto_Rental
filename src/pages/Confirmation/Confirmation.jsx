@@ -3,19 +3,21 @@ import { Link } from "react-router-dom"
 import { useLocation } from "react-router-dom"
 
 const Confirmation = () => {
-  const location = useLocation()
+  const {state} = useLocation()
+  const personalDetails = state.values
+  const {firstName, emailAdress} = personalDetails
 
   return (
     <main className={style.Confirmation_Container}>
       <div className={style.Confirmation_Content}>
         <h1>
           Thank you for your email{" "}
-          <span>{location.state.values.firstName}</span> 🏍️
+          <span>{firstName}</span> 🏍️
         </h1>
         <div className={style.Confirmation_Content__Text}>
           <p>
             We have sent you a booking confirmation over at{" "}
-            <span> {location.state.values.emailAdress}</span>
+            <span> {emailAdress}</span>
             <br></br>
           </p>
           <p>

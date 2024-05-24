@@ -46,12 +46,12 @@ const Modal = ({
 
     // Submit Booking Form
     onSubmit: (values) => {
-      console.log("Booking Form Submitted", formik.values)
+      formik.values
       // Navigate on submission, pass form values in route state
       navigate("/confirmation", { state: { values } })
     },
   })
-  if (!isOpen) return null
+  if (!isOpen) return ""
   // CreatePortal that renders children into a different part of the Document Object Model
   return createPortal(
     <>
