@@ -1,31 +1,10 @@
-import React, { useState, useEffect } from "react"
 import style from "./Hero.module.css"
+import {PageScroll} from "../index"
 import { Link } from "react-router-dom"
 import { main, shape } from "../../assets"
-import { FaCheckDouble, FaAngleDoubleRight, FaRoad } from "react-icons/fa"
+import { FaCheckDouble, FaAngleDoubleRight} from "react-icons/fa"
 
 const Hero = () => {
-  const [moveUp, setMoveUp] = useState(false)
-
-  useEffect(() => {
-    const pageScroll = () => {
-      if (window.pageYOffset > 500) {
-        setMoveUp(true)
-      } else {
-        setMoveUp(false)
-      }
-    }
-    window.addEventListener("scroll", pageScroll)
-
-    return () => {
-      window.removeEventListener("scroll", pageScroll)
-    }
-  }, [])
-
-  const scrollMoveToTop = () => {
-    window.scrollTo({ top: (0, 0), behavior: "smooth" })
-  }
-
   const bookARideButton = () => {
     document
       .querySelector("#Booking-Section")
@@ -39,7 +18,6 @@ const Hero = () => {
   }
 
   return (
-    <>
       <section id="Home-Section" className={style.Hero_Section}>
         <div className={style.Hero_Container}>
           <img className={style.Shape} src={shape} alt="Doha City" />
@@ -70,14 +48,8 @@ const Hero = () => {
           </div>
         </div>
         {/* Move page up */}
-        <div
-          onClick={scrollMoveToTop}
-          className={`${style.Scroll} ${moveUp ? `${style.Scroll_Show}` : ""}`}
-        >
-          <FaRoad size={35} />
-        </div>
+        <PageScroll/>
       </section>
-    </>
   )
 }
 

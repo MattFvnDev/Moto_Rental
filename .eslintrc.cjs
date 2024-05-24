@@ -16,7 +16,7 @@ module.exports = {
     "react/jsx-uses-vars": "error",
     "react-refresh/only-export-components": [
       "warn",
-      { allowConstantExport: true },
-    ],
+      {"allowConstantExport": true},
+    ]
   },
 }

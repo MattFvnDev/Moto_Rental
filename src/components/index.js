@@ -23,6 +23,7 @@ import Accordion from "./Accordion/Accordion"
 import Question from "./Question/Question"
 import Modal from "./Modal/Modal"
 import Scroll from "./Scroll/Scroll"
+import PageScroll from "./PageScroll/PageScroll"
 
 export {
   Hero,
@@ -49,5 +50,6 @@ export {
   Accordion,
   Question,
   Modal,
-  Scroll
+  Scroll,
+  PageScroll
 }
