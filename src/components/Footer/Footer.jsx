@@ -4,7 +4,7 @@ import { footerLinks, socialMedia } from "../../constants"
 import { logo } from "../../assets"
 
 const Footer = () => (
-  <section className={style.Footer_Section}>
+  <footer className={style.Footer}>
     <div className={style.Footer_Container}>
       <div className={style.Footer_Content}>
         <div className={style.Footer_Content__Details}>
@@ -46,7 +46,7 @@ const Footer = () => (
         </div>
       </div>
     </div>
-  </section>
+  </footer>
 )
 
 export default Footer
