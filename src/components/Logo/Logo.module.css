@@ -1,0 +1,33 @@
+.Link {
+  display: flex;
+  align-items: center;
+}
+
+.Logo {
+  height: 64px;
+  width: 64px;
+  object-fit: contain;
+}
+
+.Logo_Container {
+  display: none;
+}
+
+.Span {
+  font-size: 1.5rem;
+}
+
+@media screen and (width >= 640px) {
+  .Logo_Container {
+    display: inline-flex;
+  }
+}
+@media screen and (width >= 1000px) {
+  .Logo {
+    height: 80px;
+    width: 80px;
+  }
+  .Span {
+    font-size: 1.8rem;
+  }
+}

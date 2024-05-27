@@ -15,7 +15,7 @@ const About = () => (
             <p>
               Moto Rental operates motorcycle rental throughout Poland. We are
               one of the largest motorcycle rental companies in Poland. We have
-              been on the market for more than a decade, and every day we make
+              been on the market for more than a decade and every day we make
               any effort to satisfy our customers.
             </p>
             <div className={style.About_Main__Text__Icons}>

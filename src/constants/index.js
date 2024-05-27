@@ -490,33 +490,33 @@ export const motorcycleModels = [
 
 export const navigationLinks = [
   {
-    id:"0",
-    name:"Home",
-    path:"/"
+    id: "0",
+    name: "Home",
+    path: "/",
   },
   {
-    id:"1",
-    name:"About",
-    path:"/about"
+    id: "1",
+    name: "About",
+    path: "about",
   },
   {
-    id:"2",
-    name:"Models",
-    path:"/models"
+    id: "2",
+    name: "Models",
+    path: "/models",
   },
   {
-    id:"3",
-    name:"Team",
-    path:"/team"
+    id: "3",
+    name: "Team",
+    path: "/team",
   },
   {
-    id:"4",
-    name:"Testimonials",
-    path:"/testimonials"
+    id: "4",
+    name: "Testimonials",
+    path: "/testimonials",
   },
   {
-    id:"5",
-    name:"Contact",
-    path:"/contact"
-  }
+    id: "5",
+    name: "Contact",
+    path: "/contact",
+  },
 ]

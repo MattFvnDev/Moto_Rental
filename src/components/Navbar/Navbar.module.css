@@ -1,21 +1,6 @@
 .Navbar {
   align-items: center;
   display: flex;
-  height: auto;
-  justify-content: space-between;
-  left: 0;
-  margin: 0 auto;
-  max-width: 133rem;
-  padding: 3rem 2rem;
-  position: absolute;
-  right: 0;
-  top: 0;
-  width: 100%;
-  z-index: 5;
-}
-
-.Navbar__Logo {
-  width: 14.5rem;
 }
 
 .Navbar__Links {
@@ -26,31 +11,6 @@
 
 .Navbar__Links a:hover {
   color: #1690f3;
-}
-
-.Navbar__Buttons {
-  display: flex;
-  gap: 1.5rem;
-  align-items: center;
-  font-size: 2rem;
-  white-space: nowrap;
-}
-
-.SignIn:hover {
-  color: #1690f3;
-}
-
-.Register {
-  background-color: #1690f3;
-  border-radius: 5px;
-  color: #ffffff;
-  padding: 1.5rem 3rem;
-  position: relative;
-  text-align: center;
-}
-.Register:hover {
-  box-shadow: 0 0 15px 5px #1690f3;
-  transition: 0.4s;
 }
 
 @media screen and (width <= 1000px) {

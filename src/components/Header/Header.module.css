@@ -1,0 +1,15 @@
+.Header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 99999;
+}
+
+.Header_Container {
+  margin: 0 auto;
+  padding: 2.5rem;
+  display: flex;
+  justify-content: space-between;
+  max-width: 133rem;
+}

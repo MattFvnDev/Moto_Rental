@@ -1,4 +1,4 @@
-import { Footer, Navbar, Scroll } from "../components"
+import { Footer, Header, Scroll } from "../components"
 import { Outlet } from "react-router-dom"
 import style from "./Layout.module.css"
 
@@ -6,7 +6,7 @@ const Layout = () => {
   return (
     <div className={style.Layout}>
       <Scroll />
-      <Navbar />
+      <Header />
       <main className={style.Layout__Container}>
         <Outlet />
       </main>

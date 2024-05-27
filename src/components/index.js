@@ -24,6 +24,8 @@ import Question from "./Question/Question"
 import Modal from "./Modal/Modal"
 import Scroll from "./Scroll/Scroll"
 import PageScroll from "./PageScroll/PageScroll"
+import Header from "./Header/Header"
+import Logo from "./Logo/Logo"
 
 export {
   Hero,
@@ -51,5 +53,7 @@ export {
   Question,
   Modal,
   Scroll,
-  PageScroll
+  PageScroll,
+  Header,
+  Logo,
 }
