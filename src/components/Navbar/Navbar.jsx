@@ -1,36 +1,20 @@
-import { useState } from "react"
-import { Link, NavLink } from "react-router-dom"
-import { CgClose, CgMenu } from "react-icons/cg"
-import style from "./Navbar.module.css"
 import { navigationLinks } from "../../constants"
+import { Link, NavLink } from "react-router-dom"
+import style from "./Navbar.module.css"
 
 const Navbar = () => {
-  const [open, setOpen] = useState(false)
-  const openLink = () => {
-    setOpen(!open)
-  }
   return (
     <nav className={style.Navbar}>
-      <ul
-        className={
-          open
-            ? [style.Navbar__Links, style.Open].join(" ")
-            : [style.Navbar__Links]
-        }
-      >
-        {navigationLinks.map((link) => (
-          <NavLink onClick={openLink} key={link.id} to={link.path}>
-            {link.name}
-          </NavLink>
-        ))}
+      <ul>
+        <li>
+          {navigationLinks.map((link) => (
+            <NavLink key={link.id} to={link.path} className={style.Link}>
+              {link.name}
+            </NavLink>
+          ))}
+          <Link to="/" className={style.Link_MemberArea}>Member Area</Link>
+        </li>
       </ul>
-      {/* Mobile */}
-      <div
-        className={style.Mobile__Hamburger}
-        onClick={() => setOpen((prev) => !prev)}
-      >
-        {open ? <CgClose size={40} /> : <CgMenu size={40} />}
-      </div>
     </nav>
   )
 }

@@ -1,64 +1,54 @@
 .Navbar {
+  display: none;
   align-items: center;
-  display: flex;
 }
 
-.Navbar__Links {
-  display: flex;
-  gap: 1.5rem;
-  font-size: 2rem;
+.Link {
+  font-size: 1.6rem;
 }
-
-.Navbar__Links a:hover {
+.Link_MemberArea {
+  font-size: 1.5rem;
+  background-color: #1690f3;
+  color: #ffffff;
+  border-radius: 1.5rem;
+  padding: 1rem 1rem;
+}
+.Link:hover {
   color: #1690f3;
 }
-
-@media screen and (width <= 1000px) {
-  .Navbar__Links {
-    display: none;
-  }
-  .Navbar__Buttons {
-    display: none;
-  }
-}
-/* Mobile Navbar */
-
-.Mobile__Hamburger {
-  display: none;
+.Link_MemberArea:hover {
+  box-shadow: 0 0 10px 3px #1690f3;
+  transition: 0.4s;
 }
 
-@media screen and (width <= 1000px) {
-  .Mobile__Hamburger {
+.Navbar li {
+  display: flex;
+  gap: 1.5rem;
+  align-items: center;
+}
+
+@media screen and (width >= 768px) {
+  .Navbar {
     display: flex;
-    position: absolute;
-    right: 2rem;
-    cursor: pointer;
-    transition: 0.3s;
   }
-
-  .Mobile__Hamburger:hover {
-    color: #1690f3;
+}
+@media screen and (width >= 1024px) {
+  .Link_MemberArea {
+    padding: 1.5rem 2.5rem;
   }
-
-  .Navbar__Links {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    top: -100%;
-    width: 100%;
-    height: 100vh;
-    position: fixed;
-    gap: 5rem;
-    font-size: 3rem;
-    transition: 1.5s;
-    background-color: #ffffff;
+  .Navbar li {
+    gap: 2rem;
   }
-
-  .Open {
-    top: 0;
+}
+@media screen and (width >= 1280px) {
+  .Link {
+    font-size: 2rem;
+  }
+  .Link_MemberArea {
+    padding: 2rem 3rem;
+    font-size: 2rem;
+  }
+  .Navbar li {
+    gap: 3rem;
   }
 }
