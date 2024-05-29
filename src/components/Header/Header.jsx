@@ -1,4 +1,4 @@
-import { Navbar, Logo} from "../"
+import { Navbar, Logo, MobileNavbar} from "../"
 import style from "./Header.module.css"
 
 const Header = () => {
@@ -7,7 +7,7 @@ const Header = () => {
       <div className={style.Header_Container}>
         <Logo />
         <Navbar />
-        {/* <MobileMenu/> */}
+        <MobileNavbar/>
       </div>
     </header>
   )

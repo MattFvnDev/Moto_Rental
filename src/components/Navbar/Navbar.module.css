@@ -41,10 +41,14 @@
   }
 }
 @media screen and (width >= 1280px) {
+  .Link {
+    font-size: 1.8rem;
+  }
   .Navbar li {
     gap: 3rem;
   }
   .Link_MemberArea {
     padding: 1.5rem 2.5rem;
+    font-size: 1.8rem;
   }
 }

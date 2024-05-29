@@ -1,0 +1,58 @@
+.MobileHamburger {
+  display: block;
+}
+
+.MobileHamburger__Button {
+  border: none;
+  background-color: transparent;
+  position: absolute;
+  top: 3.5rem;
+  right: 2rem;
+  z-index: 99999;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.MobileHamburger__Button:hover {
+  color: #1690f3;
+}
+.MobileHamburger__Navbar {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  transform: translateY(-100%);
+  width: 100%;
+  height: 100vh;
+  min-height: 100vh;
+  position: fixed;
+  transition: ease-in-out 2s;
+  background-color: #ffffff;
+}
+.Open {
+  transform: translateY(0);
+}
+
+.MobileHamburger__Navbar ul {
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+}
+
+.MobileHamburger__Navbar a {
+  font-size: 2.4rem;
+  color: #000000;
+  transition: 0.5s;
+}
+
+.MobileHamburger__Navbar a:hover {
+  color: #1690f3;
+}
+
+@media screen and (width>= 768px) {
+  .MobileHamburger {
+    display: none;
+  }
+}

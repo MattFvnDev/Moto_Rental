@@ -26,6 +26,7 @@ import Scroll from "./Scroll/Scroll"
 import PageScroll from "./PageScroll/PageScroll"
 import Header from "./Header/Header"
 import Logo from "./Logo/Logo"
+import MobileNavbar from "./MobileNavbar/MobileNavbar"
 
 export {
   Hero,
@@ -56,4 +57,5 @@ export {
   PageScroll,
   Header,
   Logo,
+  MobileNavbar
 }
