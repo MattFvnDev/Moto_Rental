@@ -7,10 +7,10 @@
   font-size: 1.6rem;
 }
 .Link_MemberArea {
-  font-size: 1.5rem;
+  font-size: 1.6rem;
   background-color: #1690f3;
   color: #ffffff;
-  border-radius: 1.5rem;
+  border-radius: 25px;
   padding: 1rem 1rem;
 }
 .Link:hover {
@@ -18,7 +18,7 @@
 }
 .Link_MemberArea:hover {
   box-shadow: 0 0 10px 3px #1690f3;
-  transition: 0.4s;
+  transition: 0.3s;
 }
 
 .Navbar li {
@@ -34,21 +34,17 @@
 }
 @media screen and (width >= 1024px) {
   .Link_MemberArea {
-    padding: 1.5rem 2.5rem;
+    padding: 1.25rem 2.25rem;
   }
   .Navbar li {
     gap: 2rem;
   }
 }
 @media screen and (width >= 1280px) {
-  .Link {
-    font-size: 2rem;
-  }
-  .Link_MemberArea {
-    padding: 2rem 3rem;
-    font-size: 2rem;
-  }
   .Navbar li {
     gap: 3rem;
+  }
+  .Link_MemberArea {
+    padding: 1.5rem 2.5rem;
   }
 }
