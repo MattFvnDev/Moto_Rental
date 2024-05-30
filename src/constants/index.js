@@ -497,7 +497,7 @@ export const navigationLinks = [
   {
     id: "1",
     name: "About",
-    path: "about",
+    path: "/about",
   },
   {
     id: "2",
